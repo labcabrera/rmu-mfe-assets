@@ -113,6 +113,7 @@
   "shield": "Shield",
   "social-awareness": "Social awareness",
   "spell-lore": "Spell lore",
+  "spell-trickery": "Spell Trickery",
   "spells-arcane": "Spell arcane",
   "spells-base-open": "Spell base open",
   "spells-closed": "Spell closed",
@@ -148,6 +149,8 @@
   "transcendence": "Transcendence",
   "traps": "Traps",
   "trickery": "Trickery",
+  "unarmed-ag": "Unarmed - Agility",
+  "unarmed-st": "Unarmed - Strength",
   "weight-training": "Weight training",
   "woodcraft": "Woodcraft",
   "writing": "Writing"

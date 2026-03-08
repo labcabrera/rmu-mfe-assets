@@ -1,5 +1,6 @@
 {
   "absolute-failure": "Absolute failure",
+  "absolute-maneuver": "Absolute maneuver",
   "absolute-success": "Absolute success",
   "actions": "Actions",
   "add-attack": "Add attack",
@@ -86,6 +87,7 @@
   "encumbrance": "Encumbrance",
   "endurance": "Endurance",
   "endurance-bonus": "Endurance bonus",
+  "endurance-maneuver": "Endurance maneuver",
   "enormous": "Enormous",
   "environmental": "Environmental",
   "essence": "Essence",
@@ -154,6 +156,7 @@
   "orc": "Orc",
   "other": "Other",
   "outlook-type": "Outlook type",
+  "percent-maneuver": "Percent maneuver",
   "perception-penalty": "Perception penalty",
   "performance-art": "Performance art",
   "physical": "Physical",

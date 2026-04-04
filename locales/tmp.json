@@ -1,16 +1,4 @@
 {
-    "parries": "Parries",
-    "defending-with": "Defending with",
-    "parry-type": "Parry type",
-    "available-parry": "Available parry",
-    "fumble-roll": "Fumble roll",
-    "attack-roll": "Attack roll",
-    "critical-roll": "Critical roll",
-    "dead": "Dead",
-    "breakage_roll": "Breakage roll",
-    "initiative-base": "Initiative base",
-    "initiative-penalty": "Initiative penalty",
-    "initiative-roll": "Initiative roll",
-    "draw-and-load": "Draw and load",
-    "alert-breakage": "Breakage"
+    "light-sensitivity": "Light Sensitivity",
+    "nightvision": "Nightvision"
 }

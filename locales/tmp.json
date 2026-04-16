@@ -1,8 +1,4 @@
 {
-    "creep": "Creep",
-    "walk": "Walk",
-    "jog": "Jog",
-    "run": "Run",
-    "sprint": "Sprint",
-    "dash": "Dash"
+    "armor-penalty": "Armor Penalty",
+    "movement-penalty": "Movement Penalty"
 }

@@ -1,4 +1,26 @@
 {
     "armor-penalty": "Armor Penalty",
-    "movement-penalty": "Movement Penalty"
+    "movement-penalty": "Movement Penalty",
+    "penalty-hp": "HP Penalty",
+    "to_flank": "To Flank",
+    "to_rear": "To Rear",
+    "none": "None",
+    "flank": "Flank",
+    "rear": "Rear",
+    "close": "Close",
+    "cramped": "Cramped",
+    "tight": "Tight",
+    "confined": "Confined",
+    "head": "Head",
+    "chest": "Chest",
+    "abdomen": "Abdomen",
+    "arms": "Arms",
+    "legs": "Legs",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "normal": "Normal",
+    "restricted": "Restricted",
+    "passive": "Passive",
+    "partial": "Partial",
+    "full": "Full"
 }

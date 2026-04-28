@@ -565,5 +565,14 @@
   "wood": "Wood",
   "wood-elf": "Wood elf",
   "woodwind": "Woodwind",
-  "yes": "Yes"
+  "yes": "Yes",
+  "shell": {
+    "home": {
+      "subtitle": "Asistente OpenSource de Rolemaster para crear campañas, gestionar facciones, resolver combates tácticos y mantener tus sesiones organizadas con un conjunto de herramientas limpio y extensible.",
+      "get-started": "Comenzando",
+      "start-campaign": "Iniciar una campaña",
+      "module-core-desc": "Configura los parámetros del juego tales como la creación de reinos, razas o profesiones y define la configuración general de la partida.Puedes utilizar la configuración estándar de RMU o crear diferentes personalizaciones de la partida.",
+      "module-strategic-desc": "Create a game with your friends using characters from a specific realm. The strategic mode allows you to create characters, equip them, and set the rules for the campaign you’ll be playing. Create your own factions and customise the characters who will be involved in future matches."
+    }
+  }
 }

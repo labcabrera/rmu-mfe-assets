@@ -64,11 +64,18 @@ def main() -> int:
         print("Error: both JSON files must contain an object at top level", file=sys.stderr)
         return 2
 
+    # Keep original target for backup, record added and overwritten keys
+    original_target = dict(target)
     added = []
+    overwritten = []
     for k, v in source.items():
-        if k not in target:
-            target[k] = v
+        if k in target:
+            if target[k] != v:
+                overwritten.append(k)
+        else:
             added.append(k)
+        # Always overwrite or add from source
+        target[k] = v
 
     # Create sorted dict by key
     merged = {k: target[k] for k in sorted(target.keys())}
@@ -76,7 +83,8 @@ def main() -> int:
     if args.backup:
         bak = tpath.with_suffix(tpath.suffix + ".bak")
         try:
-            write_json(bak, target)
+            # Backup the original target file, not the already-merged one
+            write_json(bak, original_target)
         except Exception as exc:
             print(f"Warning: could not write backup {bak}: {exc}", file=sys.stderr)
 
@@ -86,9 +94,14 @@ def main() -> int:
         print(f"Error writing merged JSON: {exc}", file=sys.stderr)
         return 2
 
-    print(f"Added {len(added)} keys to {tpath}")
-    for k in added:
-        print(k)
+    if added:
+        print(f"Added {len(added)} keys to {tpath}")
+        for k in added:
+            print(k)
+    if overwritten:
+        print(f"Overwritten {len(overwritten)} keys in {tpath}")
+        for k in overwritten:
+            print(k)
 
     return 0
 

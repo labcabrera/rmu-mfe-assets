@@ -1,27 +1,6 @@
 {
-    "strategic-game": "Campaña",
-    "faction": "Facción",
-    "height": "Altura",
-    "hit-points": "Puntos de vida",
-    "defensive-bonus": "Bonus defensivo",
-    "armor-type": "Tipo de armadura",
-    "base-movement-rate": "Velocidad de movimiento base",
-    "stride-racial-bonus": "Bonus racial de zancada",
-    "stride-stat-bonus": "Bonus de zancada por rapidez",
-    "resistance": "Resistencia",
-    "weight-info": "Peso del equipo",
-    "carried-weight": "Peso llevado",
-    "weight-allowance": "Capacidad de carga",
-    "encumbrance-penalty": "Penalización por sobrecarga",
-    "max-pace": "Ritmo máximo",
-    "armor-base-penalty": "Penalización base por armadura",
-    "movement-base-difficulty": "Dificultad base de movimiento",
-    "stride-modifiers": "Modificadores de zancada",
-    "board-scale": "Escala del tablero",
-    "creep": "Sigilo",
-    "walk": "Caminar",
-    "run": "Carrera",
-    "jog": "Trote",
-    "sprint": "Carrera veloz",
-    "dash": "Esfuerzo máximo"
+    "strategic-game": "Campaign",
+    "strategic-games": "Campaigns"
+
+
 }

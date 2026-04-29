@@ -1,5 +1,6 @@
 {
-    "language-spoken": "Lenguaje - Hablado",
-    "language-written": "Lenguaje - Escrito",
-    "language-sign": "Lenguaje - Signos"
+    "fixed-realms": "Fixed realms",
+    "available-realms": "Available realms",
+    "skill-costs": "Skill costs",
+    "professional-skills": "Professional skills"
 }

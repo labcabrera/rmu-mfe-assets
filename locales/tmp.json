@@ -1,6 +1,5 @@
 {
-    "cancel": "Cancelar",
-    "add": "Añadir",
-    "key": "Clave",
-    "add-enumeration": "Añadir enumeración"
+    "language-spoken": "Lenguaje - Hablado",
+    "language-written": "Lenguaje - Escrito",
+    "language-sign": "Lenguaje - Signos"
 }

@@ -1,6 +1,5 @@
 {
-    "strategic-game": "Campaign",
-    "strategic-games": "Campaigns"
-
-
+    "total-levels": "Total levels",
+    "carried-items": "Carried",
+    "stored-items": "Stored"
 }

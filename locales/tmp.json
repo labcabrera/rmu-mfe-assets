@@ -1,15 +1,3 @@
 {
-    "adrenal-defense": "Adrenal defense",
-    "adrenal-focus": "Adrenal focus",
-    "adrenal-speed": "Adrenal speed",
-    "adrenal-strength": "Adrenal strength",
-    "ambush": "Ambush",
-    "arcane-spell-list": "Arcane spell list",
-    "architecture": "Architecture",
-    "armor-maneuver": "Armor maneuver",
-    "astronomy": "Astronomy",
-    "attunement": "Attunement",
-    "base-spell-list": "Base spell list",
-    "blind-figthing": "Blind fighting",
-    "body-development": "Body development"
+    "fixed-skills": "Habilidades fijas"
 }

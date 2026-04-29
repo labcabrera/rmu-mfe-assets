@@ -1,4 +1,6 @@
 {
-    "animal-type": "Animal type",
-    "ranged-weapon-type": "Ranged weapon type"
+    "cancel": "Cancelar",
+    "add": "Añadir",
+    "key": "Clave",
+    "add-enumeration": "Añadir enumeración"
 }

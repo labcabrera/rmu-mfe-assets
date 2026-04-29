@@ -1,4 +1,17 @@
 {
+  "historic": "Historic",
+
+  "manage-realms": "Manage realms",
+  "manage-races": "Manage races",
+  "manage-professions": "Manage professions",
+  "manage-cultures": "Manage cultures",
+  "manage-catalogs": "Manage catalogs",
+  "manage-skills": "Manage skills",
+  "manage-skill-categories": "Manage skill categories",
+  "manage-traits": "Manage traits",
+  "execute-maneuvers": "Execute maneuvers",
+  "execute-resistance-rolls": "Execute resistance rolls",
+
   "Bonesetter": "Bonesetter",
   "Current level": "Current level",
   "Defense": "Defense",

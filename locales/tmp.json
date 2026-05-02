@@ -1,3 +1,12 @@
 {
-    "profile": "Perfil"
+    "carried": "Carried",
+    "shield-db": "Shield DB",
+    "shield-block-count": "Shield blocks",
+    "rarity": "Rarity",
+    "unique": "Unique",
+    "common": "Common",
+    "uncommon": "Uncommon",
+    "rare": "Rare",
+    "very-rare": "Very Rare",
+    "attack-types": "Attack Types"
 }

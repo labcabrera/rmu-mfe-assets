@@ -9,5 +9,20 @@
     "rare": "Rare",
     "very-rare": "Very Rare",
     "attack-types": "Attack Types",
-    "view": "View"
+    "view": "View",
+    "modifiers": "Modifiers",
+    "material": "Material",
+    "damage": "Damage",
+    "item-damage": "Item damage",
+    "skill-bonus": "Skill Bonus",
+    "slayer": "Slayer",
+    "block-count": "Block count",
+    "resistance-rolls": "Resistance rolls",
+    "cultures": "Cultures",
+    "culture": "Culture",
+    "catalog": "Catalog",
+    "catalogs": "Catalogs",
+    "available-realms": "Available realms",
+    "tactical-module": "Tactical Module",
+    "strategic-module": "Strategic Module"
 }

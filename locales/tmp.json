@@ -12,5 +12,11 @@
     "block-user": "Block User",
     "unblock-user": "Unblock User",
     "accept-invitation": "Accept Invitation",
-    "decline-invitation": "Decline Invitation"
+    "decline-invitation": "Decline Invitation",
+    "remove-friend": "Remove Friend",
+    "confirm-remove-friend": "Are you sure you want to remove this friend?",
+    "confirm-block-user": "Are you sure you want to block this user?",
+    "send-friend-request": "Send friend request",
+    "username": "Username",
+    "message": "Message"
 }

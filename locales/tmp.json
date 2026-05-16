@@ -4,5 +4,6 @@
     "received-invitations": "Received Invitations",
     "sent-invitations": "Sent Invitations",
     "no-pending-invitations": "No pending invitations",
-    "no-sent-invitations": "No sent invitations"
+    "no-sent-invitations": "No sent invitations",
+    "no-friends": "You haven't added any friends yet"
 }

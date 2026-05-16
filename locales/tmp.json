@@ -5,5 +5,12 @@
     "sent-invitations": "Sent Invitations",
     "no-pending-invitations": "No pending invitations",
     "no-sent-invitations": "No sent invitations",
-    "no-friends": "You haven't added any friends yet"
+    "no-friends": "You haven't added any friends yet",
+    "pending": "Pending",
+    "no-blocked-users": "You haven't blocked any users",
+    "add-friend": "Add Friend",
+    "block-user": "Block User",
+    "unblock-user": "Unblock User",
+    "accept-invitation": "Accept Invitation",
+    "decline-invitation": "Decline Invitation"
 }

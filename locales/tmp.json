@@ -18,5 +18,12 @@
     "confirm-block-user": "Are you sure you want to block this user?",
     "send-friend-request": "Send friend request",
     "username": "Username",
-    "message": "Message"
+    "message": "Message",
+    "range": "Range",
+    "duration": "Duration",
+    "target": "Target",
+    "spell-module": "Spell Module",
+    "open": "Open",
+    "closed": "Closed",
+    "base": "Base"
 }

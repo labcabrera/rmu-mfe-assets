@@ -1,3 +1,19 @@
 {
-    "area": "Area"
+    "area": "Area",
+    "spell-realm": "Spell Realm",
+    "list-type": "List Type",
+    "duration-type": "Duration Type",
+    "skill-development-costs": "Skill Development Costs",
+    "weapon-development-order": "Weapon Development Order",
+    "communications": "Communications",
+    "population": "Population",
+    "economy": "Economy",
+    "trade-options": "Trade Options",
+    "language-options": "Language Options",
+    "item-opcions": "Item Opcions",
+    "selected-factions": "Selected Factions",
+    "selected-characters": "Selected Characters",
+    "temperature-modifier": "Temperature Modifier",
+    "altitude-modifier": "Altitude Modifier",
+    "power": "Power"
 }

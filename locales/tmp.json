@@ -1,3 +1,10 @@
 {
-    "required": "Required"
+    "required": "Required",
+    "is-persistent": "Is Persistent",
+    "is-stackable": "Is Stackable",
+    "value": "Value",
+    "rounds": "Rounds",
+    "delay": "Delay",
+    "text": "Text",
+    "location": "Location"
 }

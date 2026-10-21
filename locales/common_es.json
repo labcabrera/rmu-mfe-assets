@@ -2285,5 +2285,9 @@
   "hp-log-kind-manual": "Ajuste del máster",
   "hp-by-kind": "Por origen",
   "hp-by-attacker": "Por atacante",
-  "hp-by-source": "PV por origen"
+  "hp-by-source": "PV por origen",
+  "date": "Fecha",
+  "sort-order": "Orden",
+  "sort-ascending": "Ascendente",
+  "sort-descending": "Descendente"
 }

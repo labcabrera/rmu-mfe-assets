@@ -2285,5 +2285,9 @@
   "hp-log-kind-manual": "Game master adjustment",
   "hp-by-kind": "By source",
   "hp-by-attacker": "By attacker",
-  "hp-by-source": "Hit points by source"
+  "hp-by-source": "Hit points by source",
+  "date": "Date",
+  "sort-order": "Sort order",
+  "sort-ascending": "Ascending",
+  "sort-descending": "Descending"
 }

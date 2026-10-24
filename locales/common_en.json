@@ -387,6 +387,7 @@
   "equipment-stats": "Equipment stats",
   "error-bad-request": "The request is not valid",
   "error-conflict": "The resource was modified or already exists",
+  "error-version-conflict": "Someone else changed this item while you were editing it. Reload the page to see their changes.",
   "error-forbidden": "You do not have permission for this action",
   "error-network": "The server could not be reached",
   "error-not-found": "The requested resource was not found",

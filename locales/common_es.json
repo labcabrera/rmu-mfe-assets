@@ -372,6 +372,7 @@
   "equipment-stats": "Estadísticas del equipo",
   "error-bad-request": "La petición no es válida",
   "error-conflict": "El recurso se ha modificado o ya existe",
+  "error-version-conflict": "Otra persona ha modificado este elemento mientras lo editabas. Recarga la página para ver sus cambios.",
   "error-forbidden": "No tienes permiso para esta acción",
   "error-network": "No se ha podido contactar con el servidor",
   "error-not-found": "No se ha encontrado el recurso solicitado",

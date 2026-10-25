@@ -2734,5 +2734,13 @@
   "export-character-ref-required": "Choose the character of the file to import",
   "export-wrong-kind": "This file holds something else than expected",
   "missing-reference": "Not found here",
-  "missing-reference-help": "It does not exist in this installation: it came with an imported character and has no effect"
+  "missing-reference-help": "It does not exist in this installation: it came with an imported character and has no effect",
+  "roll-pad-random": "Random",
+  "roll-pad-clear": "Clear",
+  "roll-pad-delete-die": "Delete die",
+  "roll-pad-next-die": "Next die",
+  "roll-pad-enter-die": "Enter the die",
+  "roll-pad-next-die-adds": "Open-ended: enter the next die, it adds",
+  "roll-pad-next-die-subtracts": "Open-ended: enter the next die, it subtracts",
+  "roll-pad-total": "Total: {{total}}"
 }

@@ -2734,5 +2734,13 @@
   "export-character-ref-required": "Elige el personaje del archivo a importar",
   "export-wrong-kind": "Este archivo contiene otra cosa de la esperada",
   "missing-reference": "No existe aquí",
-  "missing-reference-help": "No existe en esta instalación: vino con un personaje importado y no tiene efecto"
+  "missing-reference-help": "No existe en esta instalación: vino con un personaje importado y no tiene efecto",
+  "roll-pad-random": "Aleatorio",
+  "roll-pad-clear": "Limpiar",
+  "roll-pad-delete-die": "Borrar dado",
+  "roll-pad-next-die": "Siguiente dado",
+  "roll-pad-enter-die": "Introduce el dado",
+  "roll-pad-next-die-adds": "Tirada abierta: introduce el siguiente dado, suma",
+  "roll-pad-next-die-subtracts": "Tirada abierta: introduce el siguiente dado, resta",
+  "roll-pad-total": "Total: {{total}}"
 }

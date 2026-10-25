@@ -2692,5 +2692,6 @@
   "err-item-type-required": "Hace falta un tipo de objeto",
   "err-item-unrepairable": "El objeto es irreparable",
   "err-item-broken": "No se puede equipar un objeto roto",
-  "production-hours-value": "{{hours}} h de trabajo"
+  "production-hours-value": "{{hours}} h de trabajo",
+  "price-unknown": "Sin precio"
 }

@@ -2692,5 +2692,6 @@
   "err-item-type-required": "An item type is required",
   "err-item-unrepairable": "The item is beyond repair",
   "err-item-broken": "A broken item cannot be equipped",
-  "production-hours-value": "{{hours}} h of work"
+  "production-hours-value": "{{hours}} h of work",
+  "price-unknown": "No price"
 }

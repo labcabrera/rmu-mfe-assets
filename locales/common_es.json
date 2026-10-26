@@ -2742,5 +2742,12 @@
   "roll-pad-enter-die": "Introduce el dado",
   "roll-pad-next-die-adds": "Tirada abierta: introduce el siguiente dado, suma",
   "roll-pad-next-die-subtracts": "Tirada abierta: introduce el siguiente dado, resta",
-  "roll-pad-total": "Total: {{total}}"
+  "roll-pad-total": "Total: {{total}}",
+  "select-all": "Seleccionar todos",
+  "select-none": "Quitar todos",
+  "roster-show-all": "Todos",
+  "roster-show-selected": "Seleccionados",
+  "faction-without-characters": "Ningún personaje de esta facción puede participar",
+  "no-selected-characters": "No hay personajes seleccionados",
+  "roster-locked-in-progress": "La partida ha empezado: se pueden añadir personajes, pero no quitarlos"
 }

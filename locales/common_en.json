@@ -2742,5 +2742,12 @@
   "roll-pad-enter-die": "Enter the die",
   "roll-pad-next-die-adds": "Open-ended: enter the next die, it adds",
   "roll-pad-next-die-subtracts": "Open-ended: enter the next die, it subtracts",
-  "roll-pad-total": "Total: {{total}}"
+  "roll-pad-total": "Total: {{total}}",
+  "select-all": "Select all",
+  "select-none": "Select none",
+  "roster-show-all": "All",
+  "roster-show-selected": "Selected",
+  "faction-without-characters": "No character of this faction can take part",
+  "no-selected-characters": "No characters selected",
+  "roster-locked-in-progress": "The game has started: characters can be added but not removed"
 }

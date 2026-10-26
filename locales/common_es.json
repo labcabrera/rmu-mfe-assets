@@ -3072,7 +3072,7 @@
   "spell-cast-no-effect": "TLH 0: el hechizo no tiene efecto y se pierden los puntos de poder.",
   "spell-cast-failure-roll": "TLH {{scr}}: el hechizo falla. Tira en la tabla de fallo de hechizo para ver qué le pasa al lanzador.",
   "spell-cast-failure": "TLH {{scr}}: el hechizo falla.",
-  "spell-rr-help": "Tirada de resistencia de cada objetivo: d100 abierta + su bono de TR contra {{realm}} {{levelModifier}} (2 × nivel del lanzador {{level}}) {{spellModifier}} (hechizo). Resiste si el total llega a la TLH, {{scr}}; si no, queda afectado.",
+  "spell-rr-help": "Tirada de resistencia de cada objetivo: d100 abierta + su bono de TR contra {{realm}}, {{levelModifier}} por el nivel del lanzador ({{level}}){{spellPart}}. Resiste si el total llega a la TLH, {{scr}}; si no, queda afectado.",
   "spell-rr-total": "TR (necesita {{required}})",
   "spell-rr-skipped": "Sin tiradas de resistencia",
   "spell-skip-resistance": "Seguir sin TR",
@@ -3087,5 +3087,6 @@
   "spell-outcome-no-rr-needed": "El hechizo no admite tirada de resistencia: sus efectos se aplican tal cual.",
   "spell-effects": "Efectos",
   "spell-effects-manual": "Aún no se aplican solos: el DJ los aplica a los objetivos afectados.",
-  "spell-log-affected": "Éxito · {{affected}}/{{total}} afectados"
+  "spell-log-affected": "Éxito · {{affected}}/{{total}} afectados",
+  "spell-rr-help-spell": ", {{modifier}} del hechizo"
 }

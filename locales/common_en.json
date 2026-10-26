@@ -3276,5 +3276,16 @@
   "style-ability-weapon-form-dagger": "Weapon Form (Dagger)",
   "style-ability-weapon-form-net": "Weapon Form (Net)",
   "style-ability-weapon-form-dagger-or-short-sword": "Weapon Form (Dagger or Short Sword)",
-  "style-ability-zone-of-control": "Zone of Control"
+  "style-ability-zone-of-control": "Zone of Control",
+  "style-critical-option": "Style option for the critical",
+  "style-critical-option-help": "Abilities of the active style that change the critical. Some must be decided now; the rest can wait for the critical roll.",
+  "style-critical-option-declared": "Declared with the attack: {{ability}}",
+  "style-critical-effect-leg-sweep": "Leg Sweep: severity lowered from {{severity}}. The foe must beat the attack roll ({{roll}}) with a Running maneuver or fall prone.",
+  "style-critical-effect-weapon-breaker": "Weapon Breaker: severity lowered from {{severity}}. The foe's weapon makes a breakage check at -25.",
+  "style-critical-effect-binding-chain": "Binding Chain: Grapple critical instead of {{type}}.",
+  "style-critical-effect-overbearing": "Overbearing: Unbalancing critical instead of {{type}}.",
+  "style-critical-effect-redirect": "Redirect: severity lowered from {{severity}}. Move the foe up to {{feet}}' in a direction of your choice, no more than they moved last round.",
+  "style-critical-effect-slowing-shot": "Slowing Shot: severity lowered from {{severity}}. The foe's BMR drops {{feet}}' (to half at most).",
+  "style-critical-effect-lancers-knockback": "Lancer's Knockback: severity lowered from {{severity}}. The foe is knocked back {{feet}}' and needs a medium Running or Acrobatics maneuver to stay standing.",
+  "binding-chain": "Binding Chain"
 }

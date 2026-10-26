@@ -3276,5 +3276,16 @@
   "style-ability-weapon-form-dagger": "Forma de arma (daga)",
   "style-ability-weapon-form-net": "Forma de arma (red)",
   "style-ability-weapon-form-dagger-or-short-sword": "Forma de arma (daga o espada corta)",
-  "style-ability-zone-of-control": "Zona de control"
+  "style-ability-zone-of-control": "Zona de control",
+  "style-critical-option": "Opción de estilo para el crítico",
+  "style-critical-option-help": "Habilidades del estilo activo que cambian el crítico. Algunas se deciden ahora; el resto puede esperar a la tirada de crítico.",
+  "style-critical-option-declared": "Declarada con el ataque: {{ability}}",
+  "style-critical-effect-leg-sweep": "Barrido de piernas: gravedad rebajada desde {{severity}}. El enemigo debe superar la tirada de ataque ({{roll}}) con una maniobra de Correr o cae derribado.",
+  "style-critical-effect-weapon-breaker": "Rompearmas: gravedad rebajada desde {{severity}}. El arma del enemigo hace una prueba de rotura a -25.",
+  "style-critical-effect-binding-chain": "Cadena atrapadora: crítico de Presa en lugar de {{type}}.",
+  "style-critical-effect-overbearing": "Arrollar: crítico de Desequilibrio en lugar de {{type}}.",
+  "style-critical-effect-redirect": "Redirigir: gravedad rebajada desde {{severity}}. Mueve al enemigo hasta {{feet}}' en la dirección que elijas, sin superar lo que se movió el asalto anterior.",
+  "style-critical-effect-slowing-shot": "Disparo ralentizador: gravedad rebajada desde {{severity}}. El BMR del enemigo baja {{feet}}' (como mucho a la mitad).",
+  "style-critical-effect-lancers-knockback": "Derribo del lancero: gravedad rebajada desde {{severity}}. El enemigo retrocede {{feet}}' y necesita una maniobra media de Correr o Acrobacias para seguir en pie.",
+  "binding-chain": "Cadena atrapadora"
 }

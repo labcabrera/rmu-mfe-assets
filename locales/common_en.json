@@ -3349,5 +3349,7 @@
   "err-attack-disarmed": "The actor is disarmed: only attacks with the body are allowed",
   "err-fumble-invalid-hits": "The fumble hits are out of the range of their dice",
   "err-fumble-invalid-dice": "The fumble entry has invalid dice",
-  "err-alert-not-resolvable": "This alert is resolved with its roll"
+  "err-alert-not-resolvable": "This alert is resolved with its roll",
+  "err-attack-not-prepared": "The attack is not prepared",
+  "err-attack-pending-rolls": "The attack has rolls pending"
 }

@@ -3349,5 +3349,7 @@
   "err-attack-disarmed": "El actor está desarmado: solo puede atacar con el cuerpo",
   "err-fumble-invalid-hits": "Los PV de la pifia están fuera del rango de sus dados",
   "err-fumble-invalid-dice": "La entrada de pifia tiene dados no válidos",
-  "err-alert-not-resolvable": "Este aviso se resuelve con su tirada"
+  "err-alert-not-resolvable": "Este aviso se resuelve con su tirada",
+  "err-attack-not-prepared": "El ataque no está preparado",
+  "err-attack-pending-rolls": "El ataque tiene tiradas pendientes"
 }

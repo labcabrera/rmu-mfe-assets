@@ -3305,7 +3305,6 @@
   "style-condition-ranged": "A distancia",
   "style-condition-shield": "Escudo",
   "style-condition-no-shield": "Sin escudo",
-  "style-condition-max-shield": "Escudo de tamaño {{value}} como máximo",
   "style-condition-max-armor": "Armadura hasta TA {{value}}",
   "style-condition-unarmed": "Desarmado",
   "style-condition-unarmed-strikes": "golpes",
@@ -3316,5 +3315,6 @@
   "style-condition-weapon-category-dagger": "Daga",
   "style-condition-weapon-category-light": "Arma ligera",
   "frenzy": "Frenesí",
-  "quickdraw": "Desenvainado rápido"
+  "quickdraw": "Desenvainado rápido",
+  "style-condition-max-shield-target": "Escudo de blanco o menor"
 }

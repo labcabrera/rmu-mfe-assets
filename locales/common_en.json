@@ -3305,7 +3305,6 @@
   "style-condition-ranged": "Ranged",
   "style-condition-shield": "Shield",
   "style-condition-no-shield": "No shield",
-  "style-condition-max-shield": "Shield up to {{value}} size",
   "style-condition-max-armor": "Armor up to AT {{value}}",
   "style-condition-unarmed": "Unarmed",
   "style-condition-unarmed-strikes": "strikes",
@@ -3316,5 +3315,6 @@
   "style-condition-weapon-category-dagger": "Dagger",
   "style-condition-weapon-category-light": "Light weapon",
   "frenzy": "Frenzy",
-  "quickdraw": "Quickdraw"
+  "quickdraw": "Quickdraw",
+  "style-condition-max-shield-target": "Target shield or smaller"
 }

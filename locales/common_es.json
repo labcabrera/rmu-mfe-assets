@@ -3957,5 +3957,16 @@
   "material-elven-low-steel": "Acero bajo élfico",
   "material-elven-high-steel": "Acero alto élfico",
   "material-elven-white-alloy": "Aleación blanca élfica",
-  "material-elven-black-alloy": "Aleación negra élfica"
+  "material-elven-black-alloy": "Aleación negra élfica",
+  "results-count_one": "{{count}} resultado",
+  "results-count_other": "{{count}} resultados",
+  "hide-filters": "Ocultar filtros",
+  "show-filters": "Mostrar filtros",
+  "enc-short": "Est",
+  "item-filter-mine": "Solo los míos",
+  "item-filter-feature-container": "Con capacidad",
+  "item-filter-feature-transport": "Transporte",
+  "item-filter-feature-ammunition": "Munición",
+  "item-filter-feature-light": "Fuente de luz",
+  "item-catalog-limit": "El catálogo ha llegado al límite de {{max}} objetos: puede que falten algunos"
 }

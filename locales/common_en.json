@@ -3957,5 +3957,16 @@
   "material-elven-low-steel": "Elven low steel",
   "material-elven-high-steel": "Elven high steel",
   "material-elven-white-alloy": "Elven white alloy",
-  "material-elven-black-alloy": "Elven black alloy"
+  "material-elven-black-alloy": "Elven black alloy",
+  "results-count_one": "{{count}} result",
+  "results-count_other": "{{count}} results",
+  "hide-filters": "Hide filters",
+  "show-filters": "Show filters",
+  "enc-short": "Enc",
+  "item-filter-mine": "Only mine",
+  "item-filter-feature-container": "With capacity",
+  "item-filter-feature-transport": "Transport",
+  "item-filter-feature-ammunition": "Ammunition",
+  "item-filter-feature-light": "Light source",
+  "item-catalog-limit": "The catalog reached the limit of {{max}} items: some items may be missing"
 }

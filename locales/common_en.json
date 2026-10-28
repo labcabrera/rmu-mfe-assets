@@ -3968,5 +3968,19 @@
   "item-filter-feature-transport": "Transport",
   "item-filter-feature-ammunition": "Ammunition",
   "item-filter-feature-light": "Light source",
-  "item-catalog-limit": "The catalog reached the limit of {{max}} items: some items may be missing"
+  "item-catalog-limit": "The catalog reached the limit of {{max}} items: some items may be missing",
+  "item-sections": "Item sections",
+  "npc-category-humanoid": "Humanoid",
+  "npc-category-beast": "Beast",
+  "npc-category-undead": "Undead",
+  "npc-category-dragon": "Dragon",
+  "npc-category-giant": "Giant",
+  "npc-category-construct": "Construct",
+  "npc-category-elemental": "Elemental",
+  "npc-category-fey": "Fey",
+  "npc-category-aberration": "Aberration",
+  "npc-category-celestial": "Celestial",
+  "npc-category-monstrosity": "Monstrosity",
+  "npc-category-ooze": "Ooze",
+  "npc-category-plant": "Plant"
 }

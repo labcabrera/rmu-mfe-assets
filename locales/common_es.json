@@ -1924,6 +1924,7 @@
   "err-full-defense-action-points": "Una esquiva o un bloqueo total gasta los 4 puntos de acción del asalto",
   "err-pace-above-max": "El ritmo supera el ritmo máximo del actor",
   "err-critical-roll-mismatch": "Los críticos de un ataque comparten una sola tirada",
+  "err-attack-completed": "El ataque ya está aplicado",
   "err-invalid-protect-position": "Posición del protector no válida",
   "shield-block": "Bloqueo con escudo",
   "two-handed-weapon": "Arma a dos manos",

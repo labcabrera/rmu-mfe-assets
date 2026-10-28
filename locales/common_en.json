@@ -1924,6 +1924,7 @@
   "err-full-defense-action-points": "A full dodge or block takes the 4 action points of the round",
   "err-pace-above-max": "The pace is above the actor's maximum pace",
   "err-critical-roll-mismatch": "The criticals of an attack share one roll",
+  "err-attack-completed": "The attack has already been applied",
   "err-invalid-protect-position": "Invalid protector position",
   "shield-block": "Shield block",
   "two-handed-weapon": "Two-handed weapon",

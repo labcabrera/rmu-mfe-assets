@@ -4135,5 +4135,13 @@
   "skill-rank-add": "Develop a rank",
   "skill-rank-remove": "Undo a developed rank",
   "dev-ranks-value": "{{developed}} of {{max}} ranks developed this level",
-  "professional-mark-limit": "All {{limit}} are already assigned"
+  "professional-mark-limit": "All {{limit}} are already assigned",
+  "specialization-catalog-empty": "The realm has no options: its owner adds them to the catalog.",
+  "err-unknown-specialization": "A specialization is not in the catalog of the realm.",
+  "import-warning-unknown-specialization": "A specialization is not in the catalog of the realm.",
+  "enumeration-key": "Key",
+  "enumeration-key-help": "Derived from the name: the identifier other entities store. It cannot change.",
+  "enumeration-key-immutable": "The key of an enumeration cannot change.",
+  "enumeration-global-admin-only": "Only an administrator creates enumerations without a realm.",
+  "invalid-enumeration-key": "The name needs letters or digits."
 }

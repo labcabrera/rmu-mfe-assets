@@ -4131,5 +4131,9 @@
   "professional-bonuses-professional_one": "{{count}} habilidad profesional",
   "professional-bonuses-professional_other": "{{count}} habilidades profesionales",
   "professional-bonuses-knacks_one": "{{count}} habilidad de talento",
-  "professional-bonuses-knacks_other": "{{count}} habilidades de talento"
+  "professional-bonuses-knacks_other": "{{count}} habilidades de talento",
+  "skill-rank-add": "Desarrollar un rango",
+  "skill-rank-remove": "Deshacer un rango desarrollado",
+  "dev-ranks-value": "{{developed}} de {{max}} rangos desarrollados en este nivel",
+  "professional-mark-limit": "Ya están asignadas las {{limit}}"
 }

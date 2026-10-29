@@ -4131,5 +4131,9 @@
   "professional-bonuses-professional_one": "{{count}} professional skill",
   "professional-bonuses-professional_other": "{{count}} professional skills",
   "professional-bonuses-knacks_one": "{{count}} knack",
-  "professional-bonuses-knacks_other": "{{count}} knacks"
+  "professional-bonuses-knacks_other": "{{count}} knacks",
+  "skill-rank-add": "Develop a rank",
+  "skill-rank-remove": "Undo a developed rank",
+  "dev-ranks-value": "{{developed}} of {{max}} ranks developed this level",
+  "professional-mark-limit": "All {{limit}} are already assigned"
 }

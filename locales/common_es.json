@@ -4135,5 +4135,13 @@
   "skill-rank-add": "Desarrollar un rango",
   "skill-rank-remove": "Deshacer un rango desarrollado",
   "dev-ranks-value": "{{developed}} de {{max}} rangos desarrollados en este nivel",
-  "professional-mark-limit": "Ya están asignadas las {{limit}}"
+  "professional-mark-limit": "Ya están asignadas las {{limit}}",
+  "specialization-catalog-empty": "El reino no tiene opciones: su dueño debe añadirlas al catálogo.",
+  "err-unknown-specialization": "Una especialización no está en el catálogo del reino.",
+  "import-warning-unknown-specialization": "Una especialización no está en el catálogo del reino.",
+  "enumeration-key": "Clave",
+  "enumeration-key-help": "Se deriva del nombre: es el identificador que guardan las demás entidades. No se puede cambiar.",
+  "enumeration-key-immutable": "La clave de una enumeración no se puede cambiar.",
+  "enumeration-global-admin-only": "Solo un administrador puede crear enumeraciones sin reino.",
+  "invalid-enumeration-key": "El nombre necesita letras o dígitos."
 }

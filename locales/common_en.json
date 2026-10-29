@@ -4044,5 +4044,8 @@
   "Secret Nomad": "Secret Nomad",
   "Sea-Raider": "Sea-Raider",
   "Singer": "Singer",
-  "Skulker": "Skulker"
+  "Skulker": "Skulker",
+  "search-specialization": "Search specialization",
+  "skill-owned_one": "Owned · {{count}} rank",
+  "skill-owned_other": "Owned · {{count}} ranks"
 }

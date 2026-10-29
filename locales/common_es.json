@@ -4044,5 +4044,8 @@
   "Secret Nomad": "Nómada secreta",
   "Sea-Raider": "Corsaria",
   "Singer": "Cantora",
-  "Skulker": "Furtiva"
+  "Skulker": "Furtiva",
+  "search-specialization": "Buscar especialización",
+  "skill-owned_one": "Ya la tiene · {{count}} rango",
+  "skill-owned_other": "Ya la tiene · {{count}} rangos"
 }

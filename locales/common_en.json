@@ -2998,7 +2998,6 @@
   "import-preview-characters": "Characters",
   "import-preview-items": "Items",
   "import-preview-gold": "Gold",
-  "import-preview-xp": "XP",
   "import-format-version": "Format version",
   "import-app-version": "Application version",
   "import-upgraded-from": "The file was upgraded from format version {{version}}",

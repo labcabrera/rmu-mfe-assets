@@ -4047,5 +4047,9 @@
   "Skulker": "Furtiva",
   "search-specialization": "Buscar especialización",
   "skill-owned_one": "Ya la tiene · {{count}} rango",
-  "skill-owned_other": "Ya la tiene · {{count}} rangos"
+  "skill-owned_other": "Ya la tiene · {{count}} rangos",
+  "item-feature-poison-category": "Veneno {{category}}",
+  "item-feature-poison-level": "Nivel {{level}}",
+  "item-feature-antidote-categories": "Antídoto: {{categories}}",
+  "item-feature-antidote-level": "Hasta nivel {{level}}"
 }

@@ -4047,5 +4047,9 @@
   "Skulker": "Skulker",
   "search-specialization": "Search specialization",
   "skill-owned_one": "Owned · {{count}} rank",
-  "skill-owned_other": "Owned · {{count}} ranks"
+  "skill-owned_other": "Owned · {{count}} ranks",
+  "item-feature-poison-category": "{{category}} poison",
+  "item-feature-poison-level": "Level {{level}}",
+  "item-feature-antidote-categories": "Antidote: {{categories}}",
+  "item-feature-antidote-level": "Up to level {{level}}"
 }

@@ -4124,5 +4124,12 @@
   "trading-search-result": "Búsqueda del vendedor o comprador",
   "trading-search-result.partial-success": "Éxito parcial",
   "trading-search-result.success": "Éxito",
-  "trading-search-result.absolute-success": "Éxito absoluto"
+  "trading-search-result.absolute-success": "Éxito absoluto",
+  "professional-bonuses-pending": "Bonos profesionales por asignar: {{items}}.",
+  "professional-bonuses-add-skills": "Añade más habilidades de la profesión para poder elegirlas.",
+  "professional-bonuses-assign": "Asignar",
+  "professional-bonuses-professional_one": "{{count}} habilidad profesional",
+  "professional-bonuses-professional_other": "{{count}} habilidades profesionales",
+  "professional-bonuses-knacks_one": "{{count}} habilidad de talento",
+  "professional-bonuses-knacks_other": "{{count}} habilidades de talento"
 }

@@ -4124,5 +4124,12 @@
   "trading-search-result": "Finding the seller or buyer",
   "trading-search-result.partial-success": "Partial success",
   "trading-search-result.success": "Success",
-  "trading-search-result.absolute-success": "Absolute success"
+  "trading-search-result.absolute-success": "Absolute success",
+  "professional-bonuses-pending": "Professional bonuses to assign: {{items}}.",
+  "professional-bonuses-add-skills": "Add more skills of the profession to be able to choose them.",
+  "professional-bonuses-assign": "Assign",
+  "professional-bonuses-professional_one": "{{count}} professional skill",
+  "professional-bonuses-professional_other": "{{count}} professional skills",
+  "professional-bonuses-knacks_one": "{{count}} knack",
+  "professional-bonuses-knacks_other": "{{count}} knacks"
 }

@@ -4456,5 +4456,6 @@
   "landing-count-games-in-progress_one": "{{count}} game in progress",
   "landing-count-games-in-progress_other": "{{count}} games in progress",
   "landing-count-campaigns_one": "{{count}} campaign · {{characters}} characters",
-  "landing-count-campaigns_other": "{{count}} campaigns · {{characters}} characters"
+  "landing-count-campaigns_other": "{{count}} campaigns · {{characters}} characters",
+  "landing-prototype-current": "Current"
 }

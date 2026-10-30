@@ -4428,5 +4428,8 @@
   "healing-type-medicine": "Medicine",
   "healing-type-medicine-absolute": "Medicine, absolute success",
   "healing-type-magic-or-herbs": "Magic or herbs",
-  "healing-type-magic-and-herbs": "Magic and herbs"
+  "healing-type-magic-and-herbs": "Magic and herbs",
+  "poison-rr-total": "RR (needs {{required}})",
+  "modifier-label-game-master": "Game master modifier",
+  "poison-rr-rule-game-master": "A modifier the game master adds for the exposure: a bigger dose, the size of the victim, a partial contact…"
 }

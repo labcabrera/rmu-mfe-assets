@@ -4431,5 +4431,11 @@
   "healing-type-magic-and-herbs": "Magia y hierbas",
   "poison-rr-total": "TR (necesita {{required}})",
   "modifier-label-game-master": "Modificador del máster",
-  "poison-rr-rule-game-master": "Un modificador que añade el máster por la exposición: una dosis mayor, el tamaño de la víctima, un contacto parcial…"
+  "poison-rr-rule-game-master": "Un modificador que añade el máster por la exposición: una dosis mayor, el tamaño de la víctima, un contacto parcial…",
+  "landing-module-items-desc": "Consulta el equipo del juego, desde armas y armaduras hasta hierbas y venenos, o crea tus propios objetos.",
+  "landing-sign-in": "Iniciar sesión",
+  "landing-modules": "Módulos",
+  "landing-codex-overline": "Un compañero para Rolemaster Unified",
+  "landing-chapter": "Capítulo {{numeral}}",
+  "landing-open-module": "Abrir {{module}}"
 }

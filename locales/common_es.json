@@ -4332,8 +4332,8 @@
   "spell-cast-rule-penalty-injury": "Penalizaciones de las heridas que lleva el lanzador.",
   "spell-cast-rule-penalty-fatigue": "Fatiga acumulada por tiradas de aguante falladas.",
   "spell-cast-skip-subtlety-not-requested": "El lanzamiento no es sutil: no sufre la penalización de sutileza, pero quien esté cerca se da cuenta.",
-  "spell-cast-skip-helmet-no-penalty": "Un casco {{helmet}} no estorba el lanzamiento en la columna {{column}}.",
-  "spell-cast-skip-armor-no-penalty": "Una armadura {{armor}} no estorba el lanzamiento en la columna {{column}}.",
+  "spell-cast-skip-helmet-no-penalty": "El casco ({{helmet}}) no estorba el lanzamiento en la columna {{column}}.",
+  "spell-cast-skip-armor-no-penalty": "La armadura ({{armor}}) no estorba el lanzamiento en la columna {{column}}.",
   "spell-result-why": "¿Qué significa este resultado?",
   "spell-result-success-explanation": "Una tirada de lanzamiento por encima de 0 lanza el hechizo. Sus objetivos aún pueden resistirlo: la tirada de lanzamiento ({{scr}}) es lo que deben alcanzar sus tiradas de resistencia.",
   "spell-result-no-effect-explanation": "Una tirada de lanzamiento de 0 exacto no hace nada: el hechizo se apaga y sus puntos de poder se pierden.",
@@ -4421,5 +4421,12 @@
   "spell-cast-rule-penalty-critical": "Penalizaciones de los críticos recibidos en esta partida.",
   "spell-cast-rule-penalty-stunned": "Un lanzador aturdido lanza con penalización.",
   "spell-cast-rule-penalty-endurance": "Penalización de las tiradas de aguante falladas en esta partida.",
-  "spell-cast-rule-penalty-non-violent": "El lanzador está en un estado no violento y actúa con penalización."
+  "spell-cast-rule-penalty-non-violent": "El lanzador está en un estado no violento y actúa con penalización.",
+  "modifier-label-light": "Luz",
+  "rule-param-injuryType": "Tipo de herida",
+  "healing-type-none": "Sin cuidados",
+  "healing-type-medicine": "Medicina",
+  "healing-type-medicine-absolute": "Medicina, éxito absoluto",
+  "healing-type-magic-or-herbs": "Magia o hierbas",
+  "healing-type-magic-and-herbs": "Magia y hierbas"
 }

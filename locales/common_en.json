@@ -4332,8 +4332,8 @@
   "spell-cast-rule-penalty-injury": "Penalties of the injuries the caster carries.",
   "spell-cast-rule-penalty-fatigue": "Accumulated fatigue from failed endurance rolls.",
   "spell-cast-skip-subtlety-not-requested": "The cast is not subtle: it takes no subtlety penalty, but anyone around notices it.",
-  "spell-cast-skip-helmet-no-penalty": "A {{helmet}} helmet does not hinder casting in the {{column}} column.",
-  "spell-cast-skip-armor-no-penalty": "{{armor}} armor does not hinder casting in the {{column}} column.",
+  "spell-cast-skip-helmet-no-penalty": "The helmet ({{helmet}}) does not hinder casting in the {{column}} column.",
+  "spell-cast-skip-armor-no-penalty": "The armor ({{armor}}) does not hinder casting in the {{column}} column.",
   "spell-result-why": "What does this result mean?",
   "spell-result-success-explanation": "A casting roll above 0 casts the spell. Its targets may still resist it: the casting roll ({{scr}}) is what their resistance rolls must reach.",
   "spell-result-no-effect-explanation": "A casting roll of exactly 0 does nothing: the spell fizzles and its power points are lost.",
@@ -4421,5 +4421,12 @@
   "spell-cast-rule-penalty-critical": "Penalties of the criticals taken in this game.",
   "spell-cast-rule-penalty-stunned": "A stunned caster casts with a penalty.",
   "spell-cast-rule-penalty-endurance": "Penalty of failed endurance rolls in this game.",
-  "spell-cast-rule-penalty-non-violent": "The caster is in a non-violent state and acts with a penalty."
+  "spell-cast-rule-penalty-non-violent": "The caster is in a non-violent state and acts with a penalty.",
+  "modifier-label-light": "Light",
+  "rule-param-injuryType": "Injury type",
+  "healing-type-none": "No care",
+  "healing-type-medicine": "Medicine",
+  "healing-type-medicine-absolute": "Medicine, absolute success",
+  "healing-type-magic-or-herbs": "Magic or herbs",
+  "healing-type-magic-and-herbs": "Magic and herbs"
 }

@@ -4428,5 +4428,8 @@
   "healing-type-medicine": "Medicina",
   "healing-type-medicine-absolute": "Medicina, éxito absoluto",
   "healing-type-magic-or-herbs": "Magia o hierbas",
-  "healing-type-magic-and-herbs": "Magia y hierbas"
+  "healing-type-magic-and-herbs": "Magia y hierbas",
+  "poison-rr-total": "TR (necesita {{required}})",
+  "modifier-label-game-master": "Modificador del máster",
+  "poison-rr-rule-game-master": "Un modificador que añade el máster por la exposición: una dosis mayor, el tamaño de la víctima, un contacto parcial…"
 }

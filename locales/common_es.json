@@ -6512,5 +6512,6 @@
   "ledger-kind-found": "Encontrado",
   "ledger-kind-import": "Importado",
   "herb-search-base": "Tirada {{roll}}, bono {{bonus}}: base {{base}} antes de los modificadores de cada hierba",
-  "herb-use-dose-note": "Dosis usada en combate"
+  "herb-use-dose-note": "Dosis usada en combate",
+  "healing-log-kind-herb": "Hierba"
 }

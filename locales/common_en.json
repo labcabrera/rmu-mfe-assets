@@ -6512,5 +6512,6 @@
   "ledger-kind-found": "Found",
   "ledger-kind-import": "Imported",
   "herb-search-base": "Roll {{roll}}, bonus {{bonus}}: base {{base}} before the modifiers of each herb",
-  "herb-use-dose-note": "Dose used in combat"
+  "herb-use-dose-note": "Dose used in combat",
+  "healing-log-kind-herb": "Herb"
 }

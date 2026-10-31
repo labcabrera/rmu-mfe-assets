@@ -2,3 +2,5 @@
 fonts-test/
 images/manifest.json
 images/user-data/
+images/thumbs/
+node_modules/

@@ -1,0 +1,13 @@
+{
+  "name": "rmu-mfe-assets",
+  "private": true,
+  "description": "Static images and locales of RMU Engine. Only the build scripts use Node.",
+  "type": "module",
+  "scripts": {
+    "manifest": "node scripts/build-manifest.mjs",
+    "thumbs": "node scripts/build-thumbs.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

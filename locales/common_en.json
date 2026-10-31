@@ -5419,5 +5419,14 @@
   "encounter-special-wild": "Nature turns strange: an animal acting oddly, a rare beast or signs of a hunter nearby.",
   "encounter-special-barren": "The land itself is the threat: exposure, thirst, a hidden pit or a mirage.",
   "encounter-special-haunted": "Something from the past stirs: a restless spirit, an apparition or an omen.",
-  "encounter-special-volcanic": "The ground is restless: tremors, toxic fumes or a fresh lava flow."
+  "encounter-special-volcanic": "The ground is restless: tremors, toxic fumes or a fresh lava flow.",
+  "encounter-event-bitter-cold": "Bitter cold",
+  "encounter-event-blizzard": "Blizzard",
+  "encounter-event-crevasse": "Crevasse",
+  "encounter-event-lava-flow": "Lava flow",
+  "encounter-event-pressure-vent": "Pressure vent",
+  "encounter-event-sandstorm": "Sandstorm",
+  "encounter-event-sulfur-cloud": "Sulfur cloud",
+  "encounter-event-sunburn": "Sunburn",
+  "encounter-event-white-out": "White-out"
 }

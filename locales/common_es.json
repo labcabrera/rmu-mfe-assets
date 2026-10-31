@@ -5419,5 +5419,14 @@
   "encounter-special-wild": "La naturaleza se vuelve extraña: un animal que actúa raro, una bestia poco común o rastros de un cazador cerca.",
   "encounter-special-barren": "La propia tierra es la amenaza: la intemperie, la sed, un hoyo oculto o un espejismo.",
   "encounter-special-haunted": "Algo del pasado se agita: un espíritu inquieto, una aparición o un presagio.",
-  "encounter-special-volcanic": "El suelo no descansa: temblores, gases tóxicos o una nueva colada de lava."
+  "encounter-special-volcanic": "El suelo no descansa: temblores, gases tóxicos o una nueva colada de lava.",
+  "encounter-event-bitter-cold": "Frío glacial",
+  "encounter-event-blizzard": "Ventisca",
+  "encounter-event-crevasse": "Grieta",
+  "encounter-event-lava-flow": "Colada de lava",
+  "encounter-event-pressure-vent": "Chimenea de presión",
+  "encounter-event-sandstorm": "Tormenta de arena",
+  "encounter-event-sulfur-cloud": "Nube de azufre",
+  "encounter-event-sunburn": "Quemadura solar",
+  "encounter-event-white-out": "Ceguera blanca"
 }

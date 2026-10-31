@@ -2,16 +2,20 @@ IMAGE     ?= labcabrera/rmu-mfe-assets
 IMAGE_TAG ?= local
 
 .DEFAULT_GOAL := help
-.PHONY: help start manifest check check-code docker-build docker-push deploy-aws
+.PHONY: help start manifest thumbs check check-code docker-build docker-push deploy-aws
 
 help: ## Show available targets
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2}'
 
-start: manifest ## Serve this directory on http://localhost:4000 (the gateway falls back to it when rmu-mfe-assets is stopped)
+start: thumbs ## Serve this directory on http://localhost:4000 (the gateway falls back to it when rmu-mfe-assets is stopped)
 	python3 local-start.py
 
 manifest: ## Write images/manifest.json, the base images that rmu-api-media lists (spec 057)
 	node scripts/build-manifest.mjs
+
+thumbs: manifest ## Write the WebP thumbnails images/thumbs/{128,512}/ of the manifest images (spec 058; installs sharp)
+	@[ -d node_modules/sharp ] || npm ci
+	node scripts/build-thumbs.mjs --clean
 
 check: ## Check the image folders and the translations
 	node scripts/build-manifest.mjs --check

@@ -5,3 +5,6 @@
 fonts-test
 locales/tmp.json
 locales/merge-locales.py
+# Uploads live in the media bucket (spec 057), and the conversion scripts are not served.
+images/user-data
+images/**/*.sh

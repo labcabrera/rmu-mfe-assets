@@ -4883,5 +4883,12 @@
   "err-npc-count": "The specimens of an NPC go from 1 to 50",
   "err-environment-faction-reserved": "The environment is not a faction of the campaign",
   "err-environment-faction-name": "The environment needs a name",
-  "err-game-not-created": "Only possible before the game starts"
+  "err-game-not-created": "Only possible before the game starts",
+  "image-source-base": "Base",
+  "image-source-user": "Mine",
+  "edit-image": "Edit image",
+  "image-delete-confirm": "Delete this image? Entities that use it will lose it.",
+  "image-update-failed": "The image could not be updated",
+  "image-delete-failed": "The image could not be deleted",
+  "image-fetch-failed": "The images could not be loaded"
 }

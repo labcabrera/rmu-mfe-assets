@@ -4883,5 +4883,12 @@
   "err-npc-count": "Los ejemplares de un PNJ van de 1 a 50",
   "err-environment-faction-reserved": "El entorno no es una facción de la campaña",
   "err-environment-faction-name": "El entorno necesita un nombre",
-  "err-game-not-created": "Solo es posible antes de empezar la partida"
+  "err-game-not-created": "Solo es posible antes de empezar la partida",
+  "image-source-base": "Base",
+  "image-source-user": "Propia",
+  "edit-image": "Editar imagen",
+  "image-delete-confirm": "¿Borrar esta imagen? Las entidades que la usan se quedarán sin ella.",
+  "image-update-failed": "No se pudo actualizar la imagen",
+  "image-delete-failed": "No se pudo borrar la imagen",
+  "image-fetch-failed": "No se pudieron cargar las imágenes"
 }

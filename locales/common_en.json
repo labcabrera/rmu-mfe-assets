@@ -6502,5 +6502,15 @@
   "gem-mineral-vorobevite": "Vorobevite",
   "gem-mineral-wardite": "Wardite",
   "gem-mineral-zircon": "Zircon",
-  "gem-mineral-zoisite": "Zoisite"
+  "gem-mineral-zoisite": "Zoisite",
+  "err-item-not-herb": "The item is not a herb",
+  "err-herb-not-held": "The herb is not carried by the character",
+  "err-item-invalid-size": "This item cannot take that size",
+  "err-item-invalid-gem": "Carats and cut are only for gems, and must be over 0",
+  "err-item-invalid-jewelry": "The class and value are only for jewelry, and the value cannot be negative",
+  "err-item-not-jewel": "Only gems and jewelry sell to a jeweler",
+  "ledger-kind-found": "Found",
+  "ledger-kind-import": "Imported",
+  "herb-search-base": "Roll {{roll}}, bonus {{bonus}}: base {{base}} before the modifiers of each herb",
+  "herb-use-dose-note": "Dose used in combat"
 }

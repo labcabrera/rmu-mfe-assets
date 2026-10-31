@@ -6502,5 +6502,15 @@
   "gem-mineral-vorobevite": "Vorobievita",
   "gem-mineral-wardite": "Wardita",
   "gem-mineral-zircon": "Circón",
-  "gem-mineral-zoisite": "Zoisita"
+  "gem-mineral-zoisite": "Zoisita",
+  "err-item-not-herb": "El objeto no es una hierba",
+  "err-herb-not-held": "El personaje no lleva la hierba",
+  "err-item-invalid-size": "Este objeto no admite esa talla",
+  "err-item-invalid-gem": "Los quilates y la talla son solo de gemas, y deben ser mayores que 0",
+  "err-item-invalid-jewelry": "La clase y el valor son solo de joyas, y el valor no puede ser negativo",
+  "err-item-not-jewel": "Solo las gemas y las joyas se venden a un joyero",
+  "ledger-kind-found": "Encontrado",
+  "ledger-kind-import": "Importado",
+  "herb-search-base": "Tirada {{roll}}, bono {{bonus}}: base {{base}} antes de los modificadores de cada hierba",
+  "herb-use-dose-note": "Dosis usada en combate"
 }

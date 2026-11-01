@@ -348,7 +348,13 @@
     "zaganzar",
     "zoom",
     "zulsendura",
-    "zur"
+    "zur",
+    "alchemy-failure-table-general",
+    "power-level-superior",
+    "enchantment-scope-normal",
+    "enchantment-pp-per-cast",
+    "enchantment-failure-line",
+    "enchantment-spell-line"
   ],
   "items": [
     "claymore",

@@ -6513,5 +6513,18 @@
   "ledger-kind-import": "Imported",
   "herb-search-base": "Roll {{roll}}, bonus {{bonus}}: base {{base}} before the modifiers of each herb",
   "herb-use-dose-note": "Dose used in combat",
-  "healing-log-kind-herb": "Herb"
+  "healing-log-kind-herb": "Herb",
+  "image-category-actions": "Actions",
+  "image-category-avatars": "Avatars",
+  "image-category-backgrounds": "Backgrounds",
+  "image-category-cultures": "Cultures",
+  "image-category-doc": "Documentation",
+  "image-category-generic": "Generic",
+  "image-category-icons": "Icons",
+  "image-category-items": "Items",
+  "image-category-npcs": "NPCs",
+  "image-category-photos": "Photos",
+  "image-category-professions": "Professions",
+  "image-category-races": "Races",
+  "image-category-user-data": "My uploads"
 }

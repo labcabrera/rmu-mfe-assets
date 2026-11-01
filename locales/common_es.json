@@ -6513,5 +6513,18 @@
   "ledger-kind-import": "Importado",
   "herb-search-base": "Tirada {{roll}}, bono {{bonus}}: base {{base}} antes de los modificadores de cada hierba",
   "herb-use-dose-note": "Dosis usada en combate",
-  "healing-log-kind-herb": "Hierba"
+  "healing-log-kind-herb": "Hierba",
+  "image-category-actions": "Acciones",
+  "image-category-avatars": "Avatares",
+  "image-category-backgrounds": "Fondos",
+  "image-category-cultures": "Culturas",
+  "image-category-doc": "Documentación",
+  "image-category-generic": "Genéricas",
+  "image-category-icons": "Iconos",
+  "image-category-items": "Objetos",
+  "image-category-npcs": "PNJ",
+  "image-category-photos": "Fotos",
+  "image-category-professions": "Profesiones",
+  "image-category-races": "Razas",
+  "image-category-user-data": "Mis imágenes"
 }

@@ -6601,7 +6601,7 @@
   "enchantment-target-required": "Choose the skill of each skill bonus",
   "enchantment-power-level": "Campaign power level",
   "enchantment-power-level-hint": "It multiplies the cost of the enchantment, not the base item",
-  "enchantment-batch-whole-stack": "Enchant the whole stack ({{count}} units)",
+  "enchantment-batch-whole-stack": "The whole stack is enchanted ({{count}} units)",
   "enchantment-batch-hint": "A batch takes the same days and materials for every unit; the spells cast per unit cost their PP for each one",
   "enchantment-batch-size": "Batch",
   "enchantment-quote": "Quote",
@@ -6678,5 +6678,8 @@
   "err-enchantment-scr-roll-required": "Every spell needs its SCR roll",
   "err-enchantment-not-finished": "There are days left to work",
   "err-enchantment-status": "The project cannot do that in its status",
-  "err-enchantment-failure-rolls-pending": "The failure rolls are missing"
+  "err-enchantment-failure-rolls-pending": "The failure rolls are missing",
+  "err-enchantment-not-found": "The enchantment project does not exist",
+  "err-enchantment-power-level-unknown": "The rulebook tables have no multiplier for that power level",
+  "err-enchantment-spell-repeated": "A spell can only be imbedded once in the same enchantment"
 }

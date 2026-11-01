@@ -6601,7 +6601,7 @@
   "enchantment-target-required": "Elige la habilidad de cada bonificación a habilidad",
   "enchantment-power-level": "Nivel de poder de la campaña",
   "enchantment-power-level-hint": "Multiplica el coste del encantamiento, no el del objeto base",
-  "enchantment-batch-whole-stack": "Encantar toda la pila ({{count}} unidades)",
+  "enchantment-batch-whole-stack": "Se encanta toda la pila ({{count}} unidades)",
   "enchantment-batch-hint": "Un lote lleva los mismos días y materiales para todas las unidades; los hechizos que se lanzan por unidad cuestan sus PP por cada una",
   "enchantment-batch-size": "Lote",
   "enchantment-quote": "Presupuesto",
@@ -6678,5 +6678,8 @@
   "err-enchantment-scr-roll-required": "Cada hechizo necesita su tirada de SCR",
   "err-enchantment-not-finished": "Quedan días por trabajar",
   "err-enchantment-status": "El proyecto no puede hacer eso en su estado",
-  "err-enchantment-failure-rolls-pending": "Faltan las tiradas de fallo"
+  "err-enchantment-failure-rolls-pending": "Faltan las tiradas de fallo",
+  "err-enchantment-not-found": "El proyecto de encantamiento no existe",
+  "err-enchantment-power-level-unknown": "Las tablas del reglamento no tienen multiplicador para ese nivel de poder",
+  "err-enchantment-spell-repeated": "Un hechizo solo puede imbuirse una vez en el mismo encantamiento"
 }

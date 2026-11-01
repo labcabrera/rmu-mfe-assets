@@ -769,7 +769,7 @@
   "npc": "NPC",
   "npc-info": "NPC Information",
   "npcs": "NPCs",
-  "offHand": "Off Hand",
+  "offHand": "Off hand",
   "offensive-bonus": "Offensive bonus",
   "officer": "Officer",
   "one-hand": "One hand",
@@ -6731,5 +6731,6 @@
   "err-pass-time-character-not-in-game": "The character is not in this campaign",
   "err-calendar-start-date-too-long": "The start date is too long (at most 100 characters)",
   "err-calendar-elapsed-days-invalid": "The elapsed days must be a whole number of 0 or more",
-  "image-category-spells": "Spells"
+  "image-category-spells": "Spells",
+  "equipped-items": "Equipped"
 }

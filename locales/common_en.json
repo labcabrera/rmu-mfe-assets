@@ -6730,5 +6730,6 @@
   "err-pass-time-invalid": "The days and hours must be whole numbers of 0 or more",
   "err-pass-time-character-not-in-game": "The character is not in this campaign",
   "err-calendar-start-date-too-long": "The start date is too long (at most 100 characters)",
-  "err-calendar-elapsed-days-invalid": "The elapsed days must be a whole number of 0 or more"
+  "err-calendar-elapsed-days-invalid": "The elapsed days must be a whole number of 0 or more",
+  "image-category-spells": "Spells"
 }

@@ -6730,5 +6730,6 @@
   "err-pass-time-invalid": "Los días y las horas deben ser números enteros de 0 o más",
   "err-pass-time-character-not-in-game": "El personaje no está en esta campaña",
   "err-calendar-start-date-too-long": "La fecha de inicio es demasiado larga (como mucho 100 caracteres)",
-  "err-calendar-elapsed-days-invalid": "Los días transcurridos deben ser un número entero de 0 o más"
+  "err-calendar-elapsed-days-invalid": "Los días transcurridos deben ser un número entero de 0 o más",
+  "image-category-spells": "Hechizos"
 }

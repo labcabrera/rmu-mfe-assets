@@ -7142,5 +7142,7 @@
   "healing-log-temporary-modifiers-added_other": "{{count}} modificadores temporales",
   "healing-log-temporary-modifiers-expired_one": "Caducó {{count}} modificador temporal",
   "healing-log-temporary-modifiers-expired_other": "Caducaron {{count}} modificadores temporales",
-  "healing-log-temporary-modifier-removed": "Modificador temporal quitado: {{kind}} {{value}}"
+  "healing-log-temporary-modifier-removed": "Modificador temporal quitado: {{kind}} {{value}}",
+  "image-category-weapons": "Armas",
+  "image-category-armor": "Armaduras y escudos"
 }

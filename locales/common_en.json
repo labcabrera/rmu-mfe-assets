@@ -7142,5 +7142,7 @@
   "healing-log-temporary-modifiers-added_other": "{{count}} temporary modifiers",
   "healing-log-temporary-modifiers-expired_one": "{{count}} temporary modifier expired",
   "healing-log-temporary-modifiers-expired_other": "{{count}} temporary modifiers expired",
-  "healing-log-temporary-modifier-removed": "Temporary modifier removed: {{kind}} {{value}}"
+  "healing-log-temporary-modifier-removed": "Temporary modifier removed: {{kind}} {{value}}",
+  "image-category-weapons": "Weapons",
+  "image-category-armor": "Armor and shields"
 }

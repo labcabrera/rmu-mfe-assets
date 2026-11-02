@@ -354,7 +354,13 @@
     "enchantment-scope-normal",
     "enchantment-pp-per-cast",
     "enchantment-failure-line",
-    "enchantment-spell-line"
+    "enchantment-spell-line",
+    "magic-spell-line",
+    "magic-charges-value",
+    "magic-source-manual",
+    "magic-level-max-value",
+    "metal",
+    "treasure-quality-normal"
   ],
   "items": [
     "claymore",

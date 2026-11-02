@@ -7128,5 +7128,19 @@
   "morale-average-excluded_one": "Fuera de la media (sin bonificación a la TR de miedo): {{names}}",
   "morale-average-excluded_other": "{{count}} fuera de la media (sin bonificación a la TR de miedo): {{names}}",
   "group-check-skipped_one": "Sin chequeo: {{names}}",
-  "group-check-skipped_other": "{{count}} sin chequeo: {{names}}"
+  "group-check-skipped_other": "{{count}} sin chequeo: {{names}}",
+  "err-treatment-salve-modifier-range": "El modificador del ungüento está fuera de rango",
+  "cast-support-help": "La pierna escayolada permite un paso más rápido con bastón o muletas",
+  "salve-modifier-help": "Modificador a la tirada de recuperación, de {{min}} a {{max}}",
+  "treatment-limits-applied": "El tratamiento limita la herida:",
+  "injury-limits-clear": "Quitar límites",
+  "healing-log-items-consumed_one": "{{count}} objeto gastado",
+  "healing-log-items-consumed_other": "{{count}} objetos gastados",
+  "healing-log-items-consumed-ignored_one": "{{count}} objeto gastado que ya no lleva",
+  "healing-log-items-consumed-ignored_other": "{{count}} objetos gastados que ya no lleva",
+  "healing-log-temporary-modifiers-added_one": "{{count}} modificador temporal",
+  "healing-log-temporary-modifiers-added_other": "{{count}} modificadores temporales",
+  "healing-log-temporary-modifiers-expired_one": "Caducó {{count}} modificador temporal",
+  "healing-log-temporary-modifiers-expired_other": "Caducaron {{count}} modificadores temporales",
+  "healing-log-temporary-modifier-removed": "Modificador temporal quitado: {{kind}} {{value}}"
 }

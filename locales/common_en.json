@@ -7128,5 +7128,19 @@
   "morale-average-excluded_one": "Left out of the average (no bonus to the fear RR): {{names}}",
   "morale-average-excluded_other": "{{count}} left out of the average (no bonus to the fear RR): {{names}}",
   "group-check-skipped_one": "Not checked: {{names}}",
-  "group-check-skipped_other": "{{count}} not checked: {{names}}"
+  "group-check-skipped_other": "{{count}} not checked: {{names}}",
+  "err-treatment-salve-modifier-range": "The salve modifier is out of range",
+  "cast-support-help": "The cast leg allows a faster pace with a cane or crutches",
+  "salve-modifier-help": "Recovery roll modifier, from {{min}} to {{max}}",
+  "treatment-limits-applied": "The treatment limits the injury:",
+  "injury-limits-clear": "Clear limits",
+  "healing-log-items-consumed_one": "{{count}} item used",
+  "healing-log-items-consumed_other": "{{count}} items used",
+  "healing-log-items-consumed-ignored_one": "{{count}} used item no longer carried",
+  "healing-log-items-consumed-ignored_other": "{{count}} used items no longer carried",
+  "healing-log-temporary-modifiers-added_one": "{{count}} temporary modifier",
+  "healing-log-temporary-modifiers-added_other": "{{count}} temporary modifiers",
+  "healing-log-temporary-modifiers-expired_one": "{{count}} temporary modifier expired",
+  "healing-log-temporary-modifiers-expired_other": "{{count}} temporary modifiers expired",
+  "healing-log-temporary-modifier-removed": "Temporary modifier removed: {{kind}} {{value}}"
 }

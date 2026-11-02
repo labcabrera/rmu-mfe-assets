@@ -2,13 +2,17 @@ IMAGE     ?= labcabrera/rmu-mfe-assets
 IMAGE_TAG ?= local
 
 .DEFAULT_GOAL := help
-.PHONY: help start manifest thumbs check check-code docker-build docker-push deploy-aws
+.PHONY: help start convert manifest thumbs check check-code docker-build docker-push deploy-aws
 
 help: ## Show available targets
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2}'
 
 start: thumbs ## Serve this directory on http://localhost:4000 (the gateway falls back to it when rmu-mfe-assets is stopped)
 	python3 local-start.py
+
+convert: ## Scale the images not converted yet of images/<c>/ to the app size, in place (c=items weapons armor by default; installs sharp)
+	@[ -d node_modules/sharp ] || npm ci
+	node scripts/convert-images.mjs $(c)
 
 manifest: ## Write images/manifest.json, the base images that rmu-api-media lists (spec 057)
 	node scripts/build-manifest.mjs

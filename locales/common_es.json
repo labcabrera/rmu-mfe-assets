@@ -6963,5 +6963,11 @@
   "err-magic-item-standard-unknown": "Encantamiento estándar desconocido",
   "err-magic-item-invalid": "Objeto mágico no válido",
   "err-treasure-tables-missing": "Las tablas de tesoro no están importadas",
-  "err-treasure-award-invalid": "Reparto de tesoro no válido"
+  "err-treasure-award-invalid": "Reparto de tesoro no válido",
+  "ledger-kind-treasure": "Tesoro",
+  "ledger-kind-magic-item": "Objeto mágico",
+  "ledger-kind-recharge": "Recarga",
+  "ledger-kind-gem-cut": "Talla de gema",
+  "ledger-kind-gem-set": "Gema engastada",
+  "ledger-kind-gem-unset": "Gema desengastada"
 }

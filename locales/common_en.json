@@ -6963,5 +6963,11 @@
   "err-magic-item-standard-unknown": "Unknown standard enchantment",
   "err-magic-item-invalid": "Invalid magic item",
   "err-treasure-tables-missing": "The treasure tables are not imported",
-  "err-treasure-award-invalid": "Invalid treasure award"
+  "err-treasure-award-invalid": "Invalid treasure award",
+  "ledger-kind-treasure": "Treasure",
+  "ledger-kind-magic-item": "Magic item",
+  "ledger-kind-recharge": "Recharge",
+  "ledger-kind-gem-cut": "Gem cut",
+  "ledger-kind-gem-set": "Gem set",
+  "ledger-kind-gem-unset": "Gem unset"
 }

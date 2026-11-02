@@ -6732,5 +6732,16 @@
   "err-calendar-start-date-too-long": "The start date is too long (at most 100 characters)",
   "err-calendar-elapsed-days-invalid": "The elapsed days must be a whole number of 0 or more",
   "image-category-spells": "Spells",
-  "equipped-items": "Equipped"
+  "equipped-items": "Equipped",
+  "accept": "Accept",
+  "number-pad": "Number pad",
+  "number-pad-range": "From {{min}} to {{max}}",
+  "number-pad-min": "At least {{min}}",
+  "number-pad-max": "At most {{max}}",
+  "number-pad-sign": "Change sign",
+  "number-pad-backspace": "Delete last digit",
+  "number-pad-decimal": "Decimal point",
+  "options-help": "What each option means",
+  "options-help-current": "In use",
+  "options-help-default": "Default"
 }

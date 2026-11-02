@@ -6732,5 +6732,16 @@
   "err-calendar-start-date-too-long": "La fecha de inicio es demasiado larga (como mucho 100 caracteres)",
   "err-calendar-elapsed-days-invalid": "Los días transcurridos deben ser un número entero de 0 o más",
   "image-category-spells": "Hechizos",
-  "equipped-items": "Equipado"
+  "equipped-items": "Equipado",
+  "accept": "Aceptar",
+  "number-pad": "Teclado numérico",
+  "number-pad-range": "De {{min}} a {{max}}",
+  "number-pad-min": "Mínimo {{min}}",
+  "number-pad-max": "Máximo {{max}}",
+  "number-pad-sign": "Cambiar signo",
+  "number-pad-backspace": "Borrar último dígito",
+  "number-pad-decimal": "Separador decimal",
+  "options-help": "Qué significa cada opción",
+  "options-help-current": "En uso",
+  "options-help-default": "Por defecto"
 }

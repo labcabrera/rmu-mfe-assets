@@ -6918,5 +6918,11 @@
   "treasure-creature-undead-vampire": "No muerto: vampiro",
   "treasure-creature-extra-planar-pale-iii": "Extraplanar: pálido III",
   "treasure-creature-entire-category": "Categoría entera (tira otra vez para saber cuál)",
-  "treasure-creature-extra-planar-pale-iv": "Extraplanar: pálido IV"
+  "treasure-creature-extra-planar-pale-iv": "Extraplanar: pálido IV",
+  "item-feature-toggle-magic": "Es un objeto mágico",
+  "magic-base-price": "Precio del objeto base",
+  "item-category-potion": "Poción",
+  "item-category-spell-item": "Objeto de hechizos",
+  "potion": "Poción",
+  "spell-item": "Objeto de hechizos"
 }

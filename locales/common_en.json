@@ -6918,5 +6918,11 @@
   "treasure-creature-undead-vampire": "Undead: Vampire",
   "treasure-creature-extra-planar-pale-iii": "Extra planar: Pale III",
   "treasure-creature-entire-category": "Entire category (roll again to choose it)",
-  "treasure-creature-extra-planar-pale-iv": "Extra planar: Pale IV"
+  "treasure-creature-extra-planar-pale-iv": "Extra planar: Pale IV",
+  "item-feature-toggle-magic": "It is a magic item",
+  "magic-base-price": "Base item price",
+  "item-category-potion": "Potion",
+  "item-category-spell-item": "Spell item",
+  "potion": "Potion",
+  "spell-item": "Spell item"
 }

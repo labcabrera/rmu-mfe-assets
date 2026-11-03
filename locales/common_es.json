@@ -7232,6 +7232,7 @@
   "error-join-request-limit": "La partida ya tiene 50 peticiones pendientes.",
   "error-not-a-player": "Solo los jugadores de la partida pueden crear personajes en ella.",
   "error-realm-not-readable": "No puedes leer el reino.",
+  "error-realm-not-writable": "Solo puedes leer el reino: no puedes crear en él.",
   "error-game-not-public": "Esta partida no admite peticiones para entrar.",
   "error-already-member": "Ya eres miembro de esta partida.",
   "faction-players": "Jugadores de la facción",

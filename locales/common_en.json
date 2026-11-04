@@ -7408,7 +7408,6 @@
   "err-precision-position-required": "Precision needs the position of the attacker: rear, flank or front",
   "err-reaction-invalid-action": "A reaction can only be an attack",
   "err-reaction-not-available": "That reaction is not available to the actor",
-  "err-reaction-trait-required": "The actor does not have the reaction talent",
   "err-reaction-weapon-mismatch": "The reaction talent was not taken for this weapon",
   "err-reroll-not-available": "This critical cannot be rolled again",
   "err-roll-open-ended-invalid": "The dice do not match an open-ended roll for this actor",

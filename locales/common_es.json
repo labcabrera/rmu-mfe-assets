@@ -7408,7 +7408,6 @@
   "err-precision-position-required": "Precisión necesita la posición del atacante: espalda, flanco o frente",
   "err-reaction-invalid-action": "Una reacción solo puede ser un ataque",
   "err-reaction-not-available": "Esa reacción no está disponible para el actor",
-  "err-reaction-trait-required": "El actor no tiene el talento de la reacción",
   "err-reaction-weapon-mismatch": "El talento de la reacción no se tomó para esta arma",
   "err-reroll-not-available": "Este crítico no se puede repetir",
   "err-roll-open-ended-invalid": "Los dados no corresponden a una tirada abierta de este actor",

@@ -7255,5 +7255,22 @@
   "game-members-button": "Jugadores",
   "error-faction-player-not-a-player": "Solo un jugador de la partida puede estar en una facción",
   "error-faction-player-limit": "La facción ya tiene el máximo de jugadores",
-  "error-not-a-faction-player": "Solo los jugadores de la facción y los másteres pueden cambiarla"
+  "error-not-a-faction-player": "Solo los jugadores de la facción y los másteres pueden cambiarla",
+  "attack-size-effect": "Tamaño del ataque: {{size}}",
+  "attack-size-damage": "Daño ×{{multiplier}}",
+  "attack-size-critical": "Crítico {{shift}} nivel(es) contra un objetivo Mediano",
+  "attack-size-vs-target": "Contra un objetivo {{target}}: crítico {{shift}} nivel(es)",
+  "damage-scaled": "{{damage}} ({{base}} ×{{multiplier}})",
+  "severity-shift-title": "Cambio de gravedad del crítico",
+  "severity-shift-attack-size": "Tamaño del ataque",
+  "severity-shift-charge": "Carga",
+  "severity-shift-fighting-style": "Estilo de combate",
+  "severity-shift-target-size": "Tamaño (crítico) del objetivo",
+  "severity-shift-light-boned": "Huesos ligeros",
+  "severity-shift-critical-code": "Código de crítico I del objetivo",
+  "critical-below-a-none": "El crítico {{severity}} queda por debajo de A: desaparece y no se tira.",
+  "wrong-size": "Arma de otro tamaño",
+  "wrong-size-hint": "El arma está hecha para otro tamaño: ataca con su propio tamaño y −20.",
+  "wrongSize": "Arma de otro tamaño",
+  "combat-rule-attack-size": "El tamaño del ataque multiplica el daño de la tabla (multiplicador de impacto) y sube un nivel el crítico por cada tamaño sobre Mediano (o lo baja por cada tamaño bajo Mediano), menos el tamaño crítico del objetivo."
 }

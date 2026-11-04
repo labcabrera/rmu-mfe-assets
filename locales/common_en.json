@@ -7255,5 +7255,22 @@
   "game-members-button": "Players",
   "error-faction-player-not-a-player": "Only a player of the game can be in a faction",
   "error-faction-player-limit": "The faction already has the maximum number of players",
-  "error-not-a-faction-player": "Only the players of the faction and the masters can change it"
+  "error-not-a-faction-player": "Only the players of the faction and the masters can change it",
+  "attack-size-effect": "Attack size: {{size}}",
+  "attack-size-damage": "Damage ×{{multiplier}}",
+  "attack-size-critical": "Critical {{shift}} level(s) against a Medium target",
+  "attack-size-vs-target": "Against a {{target}} target: critical {{shift}} level(s)",
+  "damage-scaled": "{{damage}} ({{base}} ×{{multiplier}})",
+  "severity-shift-title": "Critical severity shift",
+  "severity-shift-attack-size": "Attack size",
+  "severity-shift-charge": "Charge",
+  "severity-shift-fighting-style": "Fighting style",
+  "severity-shift-target-size": "Target (critical) size",
+  "severity-shift-light-boned": "Light-boned",
+  "severity-shift-critical-code": "Target critical code I",
+  "critical-below-a-none": "The {{severity}} critical drops below A: it is removed and not rolled.",
+  "wrong-size": "Wrong-size weapon",
+  "wrong-size-hint": "The weapon is made for another size: it attacks with its own size and −20.",
+  "wrongSize": "Wrong-size weapon",
+  "combat-rule-attack-size": "The attack size multiplies the damage of the table (Hit Multiplier) and raises the critical one level for each size above Medium (or lowers it for each size below), minus the critical size of the target."
 }

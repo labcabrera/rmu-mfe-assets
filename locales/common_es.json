@@ -7586,6 +7586,7 @@
   "fall-suggested-origin-maneuver": "maniobra",
   "fall-suggested-origin-movement": "movimiento",
   "alert-critical-text": "Hay un crítico {{code}} pendiente por {{origin}}.",
+  "alert-endurance": "Tirada de aguante",
   "critical-alert-origin-fumble": "una pifia",
   "critical-alert-origin-hazard": "una caída o un objeto que cae",
   "critical-alert-origin-movement": "un movimiento",

@@ -7523,7 +7523,7 @@
   "err-spell-ob-split-invalid": "The OB of the bolt is split in one whole part from 0 per target, adding up to its OB at most",
   "concentration-none": "Not concentrating",
   "concentration-double-warning": "Concentrating on two things: the actor only moves at creeping pace, and a Mental Focus maneuver keeps both.",
-  "endurance-encumbrance-auto": "The load penalty of the character sheet is added by itself.",
+  "endurance-encumbrance-auto": "The load and armor maneuver penalties of the character sheet are added by themselves.",
   "spell-area": "Area",
   "spell-duration": "Duration",
   "spell-targets": "Targets",

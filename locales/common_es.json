@@ -7523,7 +7523,7 @@
   "err-spell-ob-split-invalid": "La BO del rayo se reparte en una parte entera desde 0 por objetivo, que sumen como mucho su BO",
   "concentration-none": "Sin concentración",
   "concentration-double-warning": "Concentrado en dos cosas: el actor solo se mueve a paso de Sigilo, y una maniobra de Concentración mental mantiene ambas.",
-  "endurance-encumbrance-auto": "La penalización por carga de la ficha se suma sola.",
+  "endurance-encumbrance-auto": "Las penalizaciones por carga y por armadura de la ficha se suman solas.",
   "spell-area": "Área",
   "spell-duration": "Duración",
   "spell-targets": "Objetivos",

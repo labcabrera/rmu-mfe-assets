@@ -4212,7 +4212,7 @@
   "combat-rule-range-in-melee": "Disparar o lanzar mientras se está trabado en un combate cuerpo a cuerpo: una penalización.",
   "combat-rule-called-shot": "Un ataque localizado: una penalización a cambio de elegir dónde cae el golpe.",
   "combat-rule-action-points": "Un ataque hecho con menos puntos de acción que su máximo: una penalización por cada uno que falta.",
-  "combat-rule-pace-penalty": "El atacante se mueve este asalto: cuanto más rápido el ritmo, mayor la penalización.",
+  "combat-rule-pace-penalty": "El atacante se mueve en este asalto (indicado a mano, o un movimiento libre durante el ataque): cuanto más rápido, mayor la penalización.",
   "combat-rule-pace-penalty-skill": "La habilidad de Juego de pies compensa la penalización por ritmo de los ataques cuerpo a cuerpo y arrojadizos, hasta su valor.",
   "combat-rule-uncoordinated": "Descoordinado: el ritmo del atacante cuenta como uno más rápido.",
   "combat-rule-graceful-gait": "Andar grácil: el atacante se mueve sin la penalización por ritmo.",
@@ -4323,7 +4323,7 @@
   "maneuver-rule-armor-maneuver": "La armadura estorba en las maniobras que necesitan libertad de movimiento. El valor sale de la hoja.",
   "maneuver-rule-encumbrance": "Cargar más de lo que el personaje lleva con comodidad entorpece las maniobras que necesitan libertad de movimiento.",
   "maneuver-rule-item-breakage": "El daño que ha sufrido la armadura en esta partida la vuelve más rígida, hasta que se repare.",
-  "maneuver-rule-pace": "El actor se ha movido a {{pace}} en este asalto: cuanto más rápido, más difícil es todo lo demás que haga.",
+  "maneuver-rule-pace": "El actor se mueve libremente a {{pace}} durante la maniobra, sin gastar puntos de acción: cuanto más rápido, más difícil es todo lo demás que haga.",
   "maneuver-rule-action-points": "-25 por cada punto de acción por debajo del máximo que suele llevar la maniobra ({{ap}} de {{max}}).",
   "maneuver-rule-light": "Luz u oscuridad ({{light}}). Las habilidades que necesitan luz la toman doble; a quien se esconde le favorece la oscuridad.",
   "maneuver-rule-conflict": "Contra otro actor: 100 menos el total del lado pasivo ({{passive}}).",
@@ -8058,5 +8058,11 @@
   "light-source-calculate": "Calcular",
   "light-source-apply": "Usar como luz ambiental",
   "light-source-applied": "{{source}} a {{distance}}' → {{light}}",
-  "light-source-none": "Ninguna fuente de luz aplicada"
+  "light-source-none": "Ninguna fuente de luz aplicada",
+  "free-movement-palette-help": "Sin PA, hasta carrera: las acciones hechas a la vez llevan la penalización de paso",
+  "free-movement-max-run": "Un movimiento libre llega hasta carrera",
+  "err-free-movement-pace": "Un movimiento libre llega hasta paso de carrera: esprintar o hacer un dash gasta puntos de acción",
+  "spell-cast-rule-pace": "El lanzador se mueve libremente a {{pace}} mientras lanza, sin gastar puntos de acción: cuanto más rápido, mayor la penalización.",
+  "rule-param-source": "Origen",
+  "free-movement-attack-pace": "Este actor ha hecho un movimiento libre a {{pace}} durante este ataque: se aplica su penalización de paso, salvo que marques aquí un paso más rápido."
 }

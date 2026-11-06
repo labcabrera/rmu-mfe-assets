@@ -8119,7 +8119,18 @@
   "err-attack-no-ob": "This attack has no OB: without OB it is not made. Use \"Change attack\" to go on with what the actor has left, or delete the action.",
   "attack-no-ob-left": "No OB left this round: it cannot attack with this.",
   "ob-margin-left": "OB left for the rest of the round, and to parry: {{value}}",
-  "action-warning-attack-ob-reduced": "{{actor}} parried with OB of a prepared attack: {{attack}} goes from OB {{from}} to {{to}}.",
+  "action-warning-attack-ob-reduced": "{{actor}} committed OB of a prepared attack: {{attack}} goes from OB {{from}} to {{to}}.",
   "attack-change": "Change attack",
-  "attack-change-help": "A parry lowered the OB of this attack. If you prepare it again, its defenders declare their parries again and the rolls already made are lost."
+  "attack-change-help": "A parry lowered the OB of this attack. If you prepare it again, its defenders declare their parries again and the rolls already made are lost.",
+  "initiative-tie": "Tie",
+  "initiative-tie-help": "Tied on initiative with another actor: they act at the same time and neither changes what the others do (§8.3). The app resolves attacks one by one, so the game master decides how to apply it.",
+  "initiative-lower": "Lower initiative",
+  "initiative-lower-help": "Acts later for the rest of the round (§8.3). It can go down to {{lowest}}. It cannot go back up, and the next round rolls again.",
+  "initiative-lower-value": "New initiative",
+  "initiative-lower-range": "From {{lowest}} to {{highest}}",
+  "initiative-lowered": "Lowered",
+  "initiative-lowered-done": "{{actor}} lowers its initiative to {{value}}",
+  "initiative-order-warning": "{{actor}} (initiative {{initiative}}) has an action to resolve and goes first. You can go on: the game master decides.",
+  "err-initiative-lower": "Initiative can only go down, to its value in negative and in the current round.",
+  "err-initiative-not-declared": "The actor has not declared its initiative."
 }

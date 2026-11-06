@@ -4255,7 +4255,7 @@
   "combat-skip-positional-melee-only": "Los bonificadores de flanco y espalda solo cuentan cuerpo a cuerpo.",
   "parry-breakdown": "BO {{bo}} ({{attack}}), penalizaciones {{penalty}} → máx. {{max}}",
   "protect-breakdown": "BO {{bo}} ({{attack}}), penalizaciones {{penalty}}, proteger {{protect}} → máx. {{max}}",
-  "parry-consequence": "Si dedicas {{parry}}, {{attack}} se queda con BO {{left}} el resto del asalto.",
+  "parry-consequence": "Si dedicas {{parry}}, el resto del asalto te queda de BO: {{attacks}}.",
   "parry-nobody": "Nadie puede parar este ataque.",
   "parry-nobody-because": "Nadie puede parar este ataque. Los motivos están abajo.",
   "parry-excluded": "No pueden parar ni proteger",
@@ -8115,5 +8115,11 @@
   "movement-limit-prone": "Derribado: hasta trote",
   "movement-limit-fear": "El miedo limita su movimiento",
   "movement-limit-double-concentration": "Concentrado en dos cosas: solo sigilo",
-  "movement-limit-grapple": "En presa: necesita una proeza de fuerza para alejarse"
+  "movement-limit-grapple": "En presa: necesita una proeza de fuerza para alejarse",
+  "err-attack-no-ob": "Este ataque no tiene BO: sin BO no se hace. Usa «Cambiar ataque» para seguir con lo que le queda al actor, o borra la acción.",
+  "attack-no-ob-left": "Sin BO este asalto: no puede atacar con esto.",
+  "ob-margin-left": "BO que queda el resto del asalto, y para parar: {{value}}",
+  "action-warning-attack-ob-reduced": "{{actor}} ha parado con BO de un ataque preparado: {{attack}} baja de BO {{from}} a {{to}}.",
+  "attack-change": "Cambiar ataque",
+  "attack-change-help": "Una parada ha bajado la BO de este ataque. Si lo preparas de nuevo, sus defensores vuelven a declarar la parada y se pierden las tiradas ya hechas."
 }

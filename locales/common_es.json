@@ -8116,8 +8116,10 @@
   "movement-limit-fear": "El miedo limita su movimiento",
   "movement-limit-double-concentration": "Concentrado en dos cosas: solo sigilo",
   "movement-limit-grapple": "En presa: necesita una proeza de fuerza para alejarse",
-  "err-attack-no-ob": "Este ataque no tiene BO: sin BO no se hace. Borra la acción y vuelve a declararla si el actor ataca con otra cosa.",
+  "err-attack-no-ob": "Este ataque no tiene BO: sin BO no se hace. Usa «Cambiar ataque» para seguir con lo que le queda al actor, o borra la acción.",
   "attack-no-ob-left": "Sin BO este asalto: no puede atacar con esto.",
   "ob-margin-left": "BO que queda el resto del asalto, y para parar: {{value}}",
-  "action-warning-attack-ob-reduced": "{{actor}} ha parado con BO de un ataque preparado: {{attack}} baja de BO {{from}} a {{to}}."
+  "action-warning-attack-ob-reduced": "{{actor}} ha parado con BO de un ataque preparado: {{attack}} baja de BO {{from}} a {{to}}.",
+  "attack-change": "Cambiar ataque",
+  "attack-change-help": "Una parada ha bajado la BO de este ataque. Si lo preparas de nuevo, sus defensores vuelven a declarar la parada y se pierden las tiradas ya hechas."
 }

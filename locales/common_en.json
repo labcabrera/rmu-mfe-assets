@@ -8116,8 +8116,10 @@
   "movement-limit-fear": "Fear limits where it can go",
   "movement-limit-double-concentration": "Concentrating on two things: creeping only",
   "movement-limit-grapple": "Grappling: a Feat of Strength is needed to move away",
-  "err-attack-no-ob": "This attack has no OB: without OB it is not made. Delete the action and declare it again if the actor attacks with something else.",
+  "err-attack-no-ob": "This attack has no OB: without OB it is not made. Use \"Change attack\" to go on with what the actor has left, or delete the action.",
   "attack-no-ob-left": "No OB left this round: it cannot attack with this.",
   "ob-margin-left": "OB left for the rest of the round, and to parry: {{value}}",
-  "action-warning-attack-ob-reduced": "{{actor}} parried with OB of a prepared attack: {{attack}} goes from OB {{from}} to {{to}}."
+  "action-warning-attack-ob-reduced": "{{actor}} parried with OB of a prepared attack: {{attack}} goes from OB {{from}} to {{to}}.",
+  "attack-change": "Change attack",
+  "attack-change-help": "A parry lowered the OB of this attack. If you prepare it again, its defenders declare their parries again and the rolls already made are lost."
 }

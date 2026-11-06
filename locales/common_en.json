@@ -8047,5 +8047,11 @@
   "err-group-xp-invalid": "The experience must be a positive whole number",
   "err-group-xp-character-not-in-game": "A chosen character is not in the game",
   "err-group-xp-no-characters": "The game has no characters to give experience to",
-  "ledger-kind-starting-wealth": "Starting wealth"
+  "ledger-kind-starting-wealth": "Starting wealth",
+  "unarmed-st-strikes": "Unarmed strikes (strength)",
+  "unarmed-st-sweeps-throws": "Sweeps & throws (strength)",
+  "unarmed-st-wrestling": "Wrestling (strength)",
+  "unarmed-ag-strikes": "Unarmed strikes (agility)",
+  "unarmed-ag-sweeps-throws": "Sweeps & throws (agility)",
+  "unarmed-ag-wrestling": "Wrestling (agility)"
 }

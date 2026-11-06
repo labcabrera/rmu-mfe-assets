@@ -8047,5 +8047,11 @@
   "err-group-xp-invalid": "La experiencia debe ser un número entero positivo",
   "err-group-xp-character-not-in-game": "Un personaje elegido no está en la partida",
   "err-group-xp-no-characters": "La partida no tiene personajes a los que dar experiencia",
-  "ledger-kind-starting-wealth": "Riqueza inicial"
+  "ledger-kind-starting-wealth": "Riqueza inicial",
+  "unarmed-st-strikes": "Golpes sin armas (fuerza)",
+  "unarmed-st-sweeps-throws": "Barridos y proyecciones (fuerza)",
+  "unarmed-st-wrestling": "Lucha (fuerza)",
+  "unarmed-ag-strikes": "Golpes sin armas (agilidad)",
+  "unarmed-ag-sweeps-throws": "Barridos y proyecciones (agilidad)",
+  "unarmed-ag-wrestling": "Lucha (agilidad)"
 }

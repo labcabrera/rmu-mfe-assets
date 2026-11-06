@@ -8059,7 +8059,7 @@
   "light-source-apply": "Usar como luz ambiental",
   "light-source-applied": "{{source}} a {{distance}}' → {{light}}",
   "light-source-none": "Ninguna fuente de luz aplicada",
-  "free-movement-palette-help": "Sin PA, hasta carrera: las acciones hechas a la vez llevan la penalización de paso",
+  "free-movement-palette-help": "Sin PA, hasta carrera; penaliza las acciones hechas a la vez",
   "free-movement-max-run": "Un movimiento libre llega hasta carrera",
   "err-free-movement-pace": "Un movimiento libre llega hasta paso de carrera: esprintar o hacer un dash gasta puntos de acción",
   "spell-cast-rule-pace": "El lanzador se mueve libremente a {{pace}} mientras lanza, sin gastar puntos de acción: cuanto más rápido, mayor la penalización.",

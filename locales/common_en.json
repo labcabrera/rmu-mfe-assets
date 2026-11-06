@@ -8059,7 +8059,7 @@
   "light-source-apply": "Use as ambient light",
   "light-source-applied": "{{source}} at {{distance}}' → {{light}}",
   "light-source-none": "No light source applied",
-  "free-movement-palette-help": "No AP, up to run: the actions done meanwhile take the pace penalty",
+  "free-movement-palette-help": "No AP, up to run; penalizes the actions done meanwhile",
   "free-movement-max-run": "A free movement goes up to run",
   "err-free-movement-pace": "A free movement goes up to run pace: sprinting or dashing takes action points",
   "spell-cast-rule-pace": "The caster moves freely at {{pace}} while casting, without spending action points: the faster the pace, the larger the penalty.",

@@ -4212,7 +4212,7 @@
   "combat-rule-range-in-melee": "Shooting or throwing while engaged in melee: a penalty.",
   "combat-rule-called-shot": "A called shot at a location: a penalty, in exchange for choosing where the hit lands.",
   "combat-rule-action-points": "An attack done with fewer action points than its most: a penalty for each one missing.",
-  "combat-rule-pace-penalty": "The attacker moves this round: the faster the pace, the larger the penalty.",
+  "combat-rule-pace-penalty": "The attacker moves this round (by hand, or a free movement during the attack): the faster the pace, the larger the penalty.",
   "combat-rule-pace-penalty-skill": "The Footwork skill offsets the pace penalty of melee and thrown attacks, up to its size.",
   "combat-rule-uncoordinated": "Uncoordinated: the attacker's pace counts as a faster one.",
   "combat-rule-graceful-gait": "Graceful Gait: the attacker moves without the pace penalty.",
@@ -4323,7 +4323,7 @@
   "maneuver-rule-armor-maneuver": "The armor gets in the way of maneuvers that need freedom of movement. The value comes from the sheet.",
   "maneuver-rule-encumbrance": "Carrying more than the character can comfortably bear slows down maneuvers that need freedom of movement.",
   "maneuver-rule-item-breakage": "Damage the armor took in this game makes it stiffer, until it is repaired.",
-  "maneuver-rule-pace": "The actor moved at {{pace}} this round: the faster the pace, the harder anything else it does.",
+  "maneuver-rule-pace": "The actor moves freely at {{pace}} during the maneuver, without spending action points: the faster the pace, the harder anything else it does.",
   "maneuver-rule-action-points": "-25 for each action point below the maximum the maneuver usually takes ({{ap}} of {{max}}).",
   "maneuver-rule-light": "Light or darkness ({{light}}). Skills that need light take it doubled; whoever hides benefits from darkness.",
   "maneuver-rule-conflict": "Against another actor: 100 minus the total of the passive side ({{passive}}).",
@@ -8058,5 +8058,11 @@
   "light-source-calculate": "Calculate",
   "light-source-apply": "Use as ambient light",
   "light-source-applied": "{{source}} at {{distance}}' → {{light}}",
-  "light-source-none": "No light source applied"
+  "light-source-none": "No light source applied",
+  "free-movement-palette-help": "No AP, up to run; penalizes the actions done meanwhile",
+  "free-movement-max-run": "A free movement goes up to run",
+  "err-free-movement-pace": "A free movement goes up to run pace: sprinting or dashing takes action points",
+  "spell-cast-rule-pace": "The caster moves freely at {{pace}} while casting, without spending action points: the faster the pace, the larger the penalty.",
+  "rule-param-source": "Source",
+  "free-movement-attack-pace": "This actor made a free movement at {{pace}} during this attack: its pace penalty applies, unless you mark a faster pace here."
 }

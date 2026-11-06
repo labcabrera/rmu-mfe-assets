@@ -4255,7 +4255,7 @@
   "combat-skip-positional-melee-only": "The flank and rear bonuses only count in melee.",
   "parry-breakdown": "OB {{bo}} ({{attack}}), penalties {{penalty}} → most {{max}}",
   "protect-breakdown": "OB {{bo}} ({{attack}}), penalties {{penalty}}, protect penalty {{protect}} → most {{max}}",
-  "parry-consequence": "Giving {{parry}} leaves {{attack}} with OB {{left}} for the rest of the round.",
+  "parry-consequence": "If you give {{parry}}, for the rest of the round you keep OB: {{attacks}}.",
   "parry-nobody": "Nobody can parry this attack.",
   "parry-nobody-because": "Nobody can parry this attack. The reasons are below.",
   "parry-excluded": "Cannot parry or protect",
@@ -8115,5 +8115,9 @@
   "movement-limit-prone": "Prone: up to jog",
   "movement-limit-fear": "Fear limits where it can go",
   "movement-limit-double-concentration": "Concentrating on two things: creeping only",
-  "movement-limit-grapple": "Grappling: a Feat of Strength is needed to move away"
+  "movement-limit-grapple": "Grappling: a Feat of Strength is needed to move away",
+  "err-attack-no-ob": "This attack has no OB: without OB it is not made. Delete the action and declare it again if the actor attacks with something else.",
+  "attack-no-ob-left": "No OB left this round: it cannot attack with this.",
+  "ob-margin-left": "OB left for the rest of the round, and to parry: {{value}}",
+  "action-warning-attack-ob-reduced": "{{actor}} parried with OB of a prepared attack: {{attack}} goes from OB {{from}} to {{to}}."
 }

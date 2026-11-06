@@ -8119,7 +8119,18 @@
   "err-attack-no-ob": "Este ataque no tiene BO: sin BO no se hace. Usa «Cambiar ataque» para seguir con lo que le queda al actor, o borra la acción.",
   "attack-no-ob-left": "Sin BO este asalto: no puede atacar con esto.",
   "ob-margin-left": "BO que queda el resto del asalto, y para parar: {{value}}",
-  "action-warning-attack-ob-reduced": "{{actor}} ha parado con BO de un ataque preparado: {{attack}} baja de BO {{from}} a {{to}}.",
+  "action-warning-attack-ob-reduced": "{{actor}} ha comprometido BO de un ataque preparado: {{attack}} baja de BO {{from}} a {{to}}.",
   "attack-change": "Cambiar ataque",
-  "attack-change-help": "Una parada ha bajado la BO de este ataque. Si lo preparas de nuevo, sus defensores vuelven a declarar la parada y se pierden las tiradas ya hechas."
+  "attack-change-help": "Una parada ha bajado la BO de este ataque. Si lo preparas de nuevo, sus defensores vuelven a declarar la parada y se pierden las tiradas ya hechas.",
+  "initiative-tie": "Empate",
+  "initiative-tie-help": "Empata en iniciativa con otro actor: actúan a la vez y ninguno cambia lo que hacen los demás (§8.3). La aplicación resuelve los ataques de uno en uno, así que el máster decide cómo aplicarlo.",
+  "initiative-lower": "Bajar iniciativa",
+  "initiative-lower-help": "Actúa más tarde durante el resto del asalto (§8.3). Puede bajar hasta {{lowest}}. No podrá volver a subirla, y el asalto siguiente tira de nuevo.",
+  "initiative-lower-value": "Nueva iniciativa",
+  "initiative-lower-range": "De {{lowest}} a {{highest}}",
+  "initiative-lowered": "Bajada",
+  "initiative-lowered-done": "{{actor}} baja su iniciativa a {{value}}",
+  "initiative-order-warning": "{{actor}} (iniciativa {{initiative}}) tiene una acción por resolver y actúa antes. Se puede seguir: el máster decide.",
+  "err-initiative-lower": "La iniciativa solo puede bajar, hasta su valor en negativo y en el asalto actual.",
+  "err-initiative-not-declared": "El actor no ha declarado su iniciativa."
 }

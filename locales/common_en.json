@@ -8053,5 +8053,10 @@
   "unarmed-st-wrestling": "Wrestling (strength)",
   "unarmed-ag-strikes": "Unarmed strikes (agility)",
   "unarmed-ag-sweeps-throws": "Sweeps & throws (agility)",
-  "unarmed-ag-wrestling": "Wrestling (agility)"
+  "unarmed-ag-wrestling": "Wrestling (agility)",
+  "tactical-game-factions-choose-campaign": "Choose a campaign first",
+  "light-source-calculate": "Calculate",
+  "light-source-apply": "Use as ambient light",
+  "light-source-applied": "{{source}} at {{distance}}' → {{light}}",
+  "light-source-none": "No light source applied"
 }

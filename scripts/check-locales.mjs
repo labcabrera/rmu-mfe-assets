@@ -6,7 +6,8 @@
 //   scripts/check-locales-allowlist.json;
 // - a key lives in one namespace only: an error for the namespaces of the MFEs (spec 086), a warning between common,
 //   items and traits (common wins, the other copy is never read).
-// `tables` (spec 086) is keyed by the English text of the attack tables, and its English file is empty on purpose.
+// `tables` (spec 086) is keyed by the English text of the attack tables, and its English file is empty on purpose, as
+// are those of `spell-names` and `spell-text/<list>` (spec 088).
 // Exits 1 on any error. Usage: node scripts/check-locales.mjs [--fix]
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -20,7 +21,9 @@ const FIX = process.argv.includes('--fix');
 // interpolations), by namespace.
 const ALLOWED = JSON.parse(readFileSync(join(SCRIPTS, 'check-locales-allowlist.json'), 'utf8'));
 // Namespaces keyed by the English text itself: the English file has no keys, only the translations do.
-const KEYED_BY_TEXT = new Set(['tables']);
+const KEYED_BY_TEXT = new Set(['tables', 'spell-names']);
+const SPELL_TEXT = 'spell-text';
+const isKeyedByText = (namespace) => KEYED_BY_TEXT.has(namespace) || namespace.startsWith(`${SPELL_TEXT}/`);
 
 const read = (file) => JSON.parse(readFileSync(join(LOCALES, file), 'utf8'));
 const format = (data) => `${JSON.stringify(data, null, 2)}\n`;
@@ -37,9 +40,14 @@ const error = (message) => {
   console.log(message);
 };
 
-const namespaces = readdirSync(LOCALES)
-  .filter((name) => name.endsWith('_en.json'))
-  .map((name) => name.slice(0, -'_en.json'.length))
+const inFolder = (folder, prefix) =>
+  readdirSync(folder)
+    .filter((name) => name.endsWith('_en.json'))
+    .map((name) => `${prefix}${name.slice(0, -'_en.json'.length)}`);
+const namespaces = [
+  ...inFolder(LOCALES, ''),
+  ...(existsSync(join(LOCALES, SPELL_TEXT)) ? inFolder(join(LOCALES, SPELL_TEXT), `${SPELL_TEXT}/`) : []),
+]
   .filter((namespace) => existsSync(join(LOCALES, `${namespace}_es.json`)))
   .sort();
 
@@ -56,7 +64,7 @@ for (const namespace of namespaces) {
     } else error(`${file}: keys not sorted (run with --fix)`);
   }
   const [en, es] = files.map(read);
-  if (!KEYED_BY_TEXT.has(namespace)) {
+  if (!isKeyedByText(namespace)) {
     const onlyEn = Object.keys(en).filter((key) => !(key in es));
     const onlyEs = Object.keys(es).filter((key) => !(key in en));
     if (onlyEn.length) error(`${namespace}: ${onlyEn.length} keys missing in Spanish: ${onlyEn.join(', ')}`);

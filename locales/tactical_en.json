@@ -945,6 +945,8 @@
   "roster-show-selected": "Selected",
   "round-actions": "Round actions",
   "round-n": "Round {{round}}",
+  "round-ob-available": "OB available",
+  "round-ob-used-left": "{{left}} of {{max}} OB left this round",
   "select-at-least-one-faction": "Select at least one faction",
   "select-factions-and-characters": "Select factions and characters",
   "select-none": "Select none",

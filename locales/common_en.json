@@ -1781,6 +1781,7 @@
   "new-fatigue-accumulator": "New fatigue accumulator",
   "initiative-value": "Initiative: {{value}}",
   "effects-states": "Effects / States",
+  "delete-effect": "Delete {{name}}",
   "no-states": "No states",
   "new-state": "New state",
   "penalties": "Penalties",

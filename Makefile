@@ -2,7 +2,7 @@ IMAGE     ?= labcabrera/rmu-mfe-assets
 IMAGE_TAG ?= local
 
 .DEFAULT_GOAL := help
-.PHONY: help start convert manifest thumbs check check-code docker-build docker-push deploy-aws
+.PHONY: help start convert manifest thumbs check check-tables check-code docker-build docker-push deploy-aws
 
 help: ## Show available targets
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2}'
@@ -24,6 +24,9 @@ thumbs: manifest ## Write the WebP thumbnails images/thumbs/{128,512}/ of the ma
 check: ## Check the image folders and the translations
 	node scripts/build-manifest.mjs --check
 	node scripts/check-locales.mjs
+
+check-tables: ## Coverage and orphans of the translations of the attack table texts (needs the attack-tables checkout)
+	node scripts/check-table-texts.mjs
 
 check-code: ## Check that the image paths written in the MFEs and the shared lib exist (needs the workspace)
 	node scripts/check-code-refs.mjs

@@ -945,6 +945,8 @@
   "roster-show-selected": "Seleccionados",
   "round-actions": "Acciones del asalto",
   "round-n": "Ronda {{round}}",
+  "round-ob-available": "BO disponible",
+  "round-ob-used-left": "Quedan {{left}} de {{max}} de BO este asalto",
   "select-at-least-one-faction": "Selecciona al menos una facción",
   "select-factions-and-characters": "Selecciona facciones y personajes",
   "select-none": "Quitar todos",

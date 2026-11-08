@@ -4,7 +4,8 @@
 // - the keys are sorted, so that two branches adding keys rarely touch the same lines (`--fix` sorts them);
 // - no Spanish text is the English one, which usually means a missing translation, leaving out
 //   scripts/check-locales-allowlist.json;
-// - a key lives in one namespace only (for now a warning: common wins, the other copy is never read).
+// - a key lives in one namespace only: an error for the namespaces of the MFEs (spec 086), a warning between common,
+//   items and traits (common wins, the other copy is never read).
 // `tables` (spec 086) is keyed by the English text of the attack tables, and its English file is empty on purpose.
 // Exits 1 on any error. Usage: node scripts/check-locales.mjs [--fix]
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
@@ -23,7 +24,12 @@ const KEYED_BY_TEXT = new Set(['tables']);
 
 const read = (file) => JSON.parse(readFileSync(join(LOCALES, file), 'utf8'));
 const format = (data) => `${JSON.stringify(data, null, 2)}\n`;
-const sorted = (data) => Object.fromEntries(Object.keys(data).sort().map((key) => [key, data[key]]));
+const sorted = (data) =>
+  Object.fromEntries(
+    Object.keys(data)
+      .sort()
+      .map((key) => [key, data[key]]),
+  );
 
 let errors = 0;
 const error = (message) => {
@@ -59,7 +65,7 @@ for (const namespace of namespaces) {
   }
   const allowed = new Set(ALLOWED[namespace] ?? []);
   const same = Object.keys(es).filter(
-    (key) => typeof es[key] === 'string' && es[key] !== '' && es[key] === en[key] && !allowed.has(key)
+    (key) => typeof es[key] === 'string' && es[key] !== '' && es[key] === en[key] && !allowed.has(key),
   );
   if (same.length) {
     error(`${namespace}: ${same.length} keys with the English text in ${namespace}_es.json`);
@@ -67,7 +73,14 @@ for (const namespace of namespaces) {
   }
 }
 
-const repeated = [...owners].filter(([, where]) => where.length > 1);
+// The namespaces of the MFEs (spec 086, phase 3) are found through fallbackNS: a key there must not be anywhere else.
+const LEGACY = new Set(['common', 'items', 'traits']);
+for (const [key, where] of owners) {
+  if (where.length > 1 && where.some((namespace) => !LEGACY.has(namespace))) error(`${key}: in ${where.join(' and ')}`);
+}
+const repeated = [...owners].filter(
+  ([, where]) => where.length > 1 && where.every((namespace) => LEGACY.has(namespace)),
+);
 if (repeated.length) {
   console.log(`warning: ${repeated.length} keys in more than one namespace (common wins):`);
   for (const [key, where] of repeated) console.log(`  ${key}: ${where.join(', ')}`);

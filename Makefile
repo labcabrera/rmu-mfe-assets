@@ -2,7 +2,7 @@ IMAGE     ?= labcabrera/rmu-mfe-assets
 IMAGE_TAG ?= local
 
 .DEFAULT_GOAL := help
-.PHONY: help start convert manifest thumbs check check-code docker-build docker-push deploy-aws
+.PHONY: help start convert manifest thumbs check check-tables check-namespaces split-locales data-keys check-code docker-build docker-push deploy-aws
 
 help: ## Show available targets
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2}'
@@ -24,6 +24,19 @@ thumbs: manifest ## Write the WebP thumbnails images/thumbs/{128,512}/ of the ma
 check: ## Check the image folders and the translations
 	node scripts/build-manifest.mjs --check
 	node scripts/check-locales.mjs
+
+check-tables: ## Coverage and orphans of the translations of the attack table texts (needs the attack-tables checkout)
+	node scripts/check-table-texts.mjs
+
+check-namespaces: ## Check that the keys of an MFE namespace are only used by that MFE (needs the workspace)
+	node scripts/split-locales.mjs --check
+
+data-keys: ## Write scripts/data-keys.json, the locale keys the local Mongo holds as values (needs the local stack)
+	../rmu-platform/scripts/mongo-migrate.sh scripts/data-strings.js | sed -n 's/^DATA_STRINGS //p' > /tmp/rmu-data-strings.json
+	node scripts/split-locales.mjs --data-strings /tmp/rmu-data-strings.json
+
+split-locales: ## Move the keys of common that only one MFE uses to its namespace (needs the workspace)
+	node scripts/split-locales.mjs --write
 
 check-code: ## Check that the image paths written in the MFEs and the shared lib exist (needs the workspace)
 	node scripts/check-code-refs.mjs

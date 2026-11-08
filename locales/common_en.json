@@ -1731,6 +1731,8 @@
   "err-action-points-below-min": "The action does not have its minimum action points yet",
   "err-action-points-exceeded": "The actor has no action points left this round",
   "err-action-points-invalid": "Invalid action points",
+  "err-action-retroactive-no-ap": "The actor has no free action points in one of the phases gone by",
+  "err-action-retroactive-open-action": "The actor has an open action: resolve or cancel it before declaring in a past phase",
   "err-action-surprised-phase": "A surprised actor loses the first action points of the round",
   "err-actor-not-found": "The actor is not in this round",
   "err-actor-without-spellbook": "The actor has no character sheet with spells",

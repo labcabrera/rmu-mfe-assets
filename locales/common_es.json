@@ -1731,6 +1731,8 @@
   "err-action-points-below-min": "La acción aún no tiene sus PA mínimos",
   "err-action-points-exceeded": "Al actor no le quedan puntos de acción en este asalto",
   "err-action-points-invalid": "Puntos de acción no válidos",
+  "err-action-retroactive-no-ap": "El actor no tiene puntos de acción libres en alguna de las fases transcurridas",
+  "err-action-retroactive-open-action": "El actor tiene una acción abierta: resuélvela o cancélala antes de declarar en una fase pasada",
   "err-action-surprised-phase": "Un actor sorprendido pierde los primeros puntos de acción del asalto",
   "err-actor-not-found": "El actor no está en este asalto",
   "err-actor-without-spellbook": "El actor no tiene una hoja de personaje con hechizos",

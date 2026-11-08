@@ -75,7 +75,7 @@ const scan = (repo) => {
 const allKeys = () =>
   new Set(
     readdirSync(LOCALES)
-      .filter((name) => name.endsWith('_en.json') && !name.startsWith('tables_'))
+      .filter((name) => name.endsWith('_en.json') && !name.startsWith('tables_') && !name.startsWith('spell-names_'))
       .flatMap((name) => Object.keys(JSON.parse(readFileSync(join(LOCALES, name), 'utf8')))),
   );
 

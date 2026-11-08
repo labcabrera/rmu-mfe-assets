@@ -2,7 +2,7 @@ IMAGE     ?= labcabrera/rmu-mfe-assets
 IMAGE_TAG ?= local
 
 .DEFAULT_GOAL := help
-.PHONY: help start convert manifest thumbs check check-tables check-namespaces split-locales data-keys check-code docker-build docker-push deploy-aws
+.PHONY: help start convert manifest thumbs check check-tables check-spell-texts spell-source check-namespaces split-locales data-keys check-code docker-build docker-push deploy-aws
 
 help: ## Show available targets
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2}'
@@ -27,6 +27,12 @@ check: ## Check the image folders and the translations
 
 check-tables: ## Coverage and orphans of the translations of the attack table texts (needs the attack-tables checkout)
 	node scripts/check-table-texts.mjs
+
+spell-source: ## Write /tmp/rmu-spell-source.jsonl, the English of the book spells in the local Mongo (spec 088; needs the local stack)
+	../rmu-platform/scripts/mongo-migrate.sh scripts/spell-texts.js | sed -n 's/^SPELL_LIST //p' > /tmp/rmu-spell-source.jsonl
+
+check-spell-texts: spell-source ## Coverage, orphans and outdated translations of the spell names and descriptions (needs the local stack)
+	node scripts/check-spell-texts.mjs /tmp/rmu-spell-source.jsonl
 
 check-namespaces: ## Check that the keys of an MFE namespace are only used by that MFE (needs the workspace)
 	node scripts/split-locales.mjs --check

@@ -23,6 +23,8 @@ const ALLOWED = JSON.parse(readFileSync(join(SCRIPTS, 'check-locales-allowlist.j
 // Namespaces keyed by the English text itself: the English file has no keys, only the translations do.
 const KEYED_BY_TEXT = new Set(['tables', 'spell-names']);
 const SPELL_TEXT = 'spell-text';
+// Read directly by its hook and never through fallbackNS, so its keys (skill ids, spec 090) may match keys elsewhere.
+const ISOLATED = new Set(['skill-text']);
 const isKeyedByText = (namespace) => KEYED_BY_TEXT.has(namespace) || namespace.startsWith(`${SPELL_TEXT}/`);
 
 const read = (file) => JSON.parse(readFileSync(join(LOCALES, file), 'utf8'));
@@ -69,7 +71,9 @@ for (const namespace of namespaces) {
     const onlyEs = Object.keys(es).filter((key) => !(key in en));
     if (onlyEn.length) error(`${namespace}: ${onlyEn.length} keys missing in Spanish: ${onlyEn.join(', ')}`);
     if (onlyEs.length) error(`${namespace}: ${onlyEs.length} keys missing in English: ${onlyEs.join(', ')}`);
-    for (const key of Object.keys(en)) owners.set(key, [...(owners.get(key) ?? []), namespace]);
+    if (!ISOLATED.has(namespace)) {
+      for (const key of Object.keys(en)) owners.set(key, [...(owners.get(key) ?? []), namespace]);
+    }
   }
   const allowed = new Set(ALLOWED[namespace] ?? []);
   const same = Object.keys(es).filter(

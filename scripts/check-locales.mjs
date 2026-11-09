@@ -24,7 +24,7 @@ const ALLOWED = JSON.parse(readFileSync(join(SCRIPTS, 'check-locales-allowlist.j
 const KEYED_BY_TEXT = new Set(['tables', 'spell-names']);
 const SPELL_TEXT = 'spell-text';
 // Read directly by its hook and never through fallbackNS, so its keys (skill ids, spec 090) may match keys elsewhere.
-const ISOLATED = new Set(['skill-text']);
+const ISOLATED = new Set(['skill-text', 'style-ability-text']);
 const isKeyedByText = (namespace) => KEYED_BY_TEXT.has(namespace) || namespace.startsWith(`${SPELL_TEXT}/`);
 
 const read = (file) => JSON.parse(readFileSync(join(LOCALES, file), 'utf8'));

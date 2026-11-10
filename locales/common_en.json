@@ -241,8 +241,6 @@
   "admin-tool-kafka-ui-description": "Topics, messages and consumer groups of the events.",
   "admin-tool-keycloak": "Keycloak",
   "admin-tool-keycloak-description": "Accounts, groups, clients and identity providers of the realm.",
-  "admin-tool-mongo-express": "Mongo Express",
-  "admin-tool-mongo-express-description": "Browse the MongoDB databases of each API.",
   "admin-tools": "Tools",
   "admin-tools-none": "No operation tools are configured in this environment (RMU_ADMIN_*_URI).",
   "admin-uptime": "up",

@@ -57,5 +57,17 @@ docker-build: ## Build the static nginx image $(IMAGE):$(IMAGE_TAG)
 docker-push: docker-build ## Build and push $(IMAGE):$(IMAGE_TAG) (for example IMAGE_TAG=1.2.0)
 	docker push $(IMAGE):$(IMAGE_TAG)
 
+# `sync --delete` only touches the images/ and locales/ prefixes of the assets folder: the images users upload live
+# under uploads/ (workspace spec 057) and are never deleted here. Before spec 057 the uploads were stored under images/
+# of this folder: move them (rmu-api-media scripts/move-uploads.mjs) before the first deploy.
 deploy-aws: ## Upload images/ and locales/ to S3 and invalidate CloudFront (needs .env)
-	./aws-deploy.sh
+	@test -f .env || { echo "Missing .env" >&2; exit 1; }
+	@set -eu; set -a; . ./.env; set +a; \
+	target="s3://$${S3_BUCKET:-rmu-static-assets-pro}/$${S3_PREFIX:-rmu-mfe-assets}"; \
+	region="$${AWS_REGION:-eu-west-1}"; \
+	node scripts/build-manifest.mjs; \
+	[ -d node_modules/sharp ] || npm ci; \
+	node scripts/build-thumbs.mjs --clean; \
+	aws s3 sync ./images "$$target/images" --delete --exclude 'user-data/*' --region "$$region"; \
+	aws s3 sync ./locales "$$target/locales" --delete --region "$$region"; \
+	aws cloudfront create-invalidation --distribution-id "$$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*"

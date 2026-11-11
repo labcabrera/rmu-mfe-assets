@@ -319,6 +319,7 @@
   "damage-tab-empty": "No attacks resolved yet",
   "damage-tab-hits": "Hits",
   "damage-tab-table": "Attack damage",
+  "damage-tab-target-hits": "{{percent}}% of the target's {{max}} hits",
   "dash-other-actions": "The actor has spent AP on other actions this round",
   "dash-previous-phase": "It needs half its BMR moved in the previous phase",
   "death-threshold-confirm": "Confirm death",

@@ -319,6 +319,7 @@
   "damage-tab-empty": "Aún no hay ataques resueltos",
   "damage-tab-hits": "Impactos",
   "damage-tab-table": "Daño de ataque",
+  "damage-tab-target-hits": "{{percent}} % de los {{max}} PV del objetivo",
   "dash-other-actions": "El actor ha gastado PA en otras acciones este asalto",
   "dash-previous-phase": "Necesita haber movido medio BMR en la fase anterior",
   "death-threshold-confirm": "Confirmar la muerte",

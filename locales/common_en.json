@@ -4759,7 +4759,7 @@
   "side-strength-hp-aria": "Combined hit points of {{label}}: {{current}} of {{max}}",
   "side-strength-incapacitated": "Incapacitated",
   "side-strength-leader": "Leader: {{name}}",
-  "side-strength-levels-heads": "{{levels}} levels · {{count}} heads",
+  "side-strength-levels-heads": "{{levels}} levels · {{count}} members",
   "side-strength-standing": "Standing",
   "side-strength-strength-aria": "Strength of {{label}}: {{standing}} of {{total}} levels standing",
   "side-strength-thresholds": "Marks at 50 %, 25 % and 10 %",

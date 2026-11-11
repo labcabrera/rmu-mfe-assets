@@ -4759,7 +4759,7 @@
   "side-strength-hp-aria": "Vida combinada de {{label}}: {{current}} de {{max}}",
   "side-strength-incapacitated": "Incapacitados",
   "side-strength-leader": "Líder: {{name}}",
-  "side-strength-levels-heads": "{{levels}} niveles · {{count}} cabezas",
+  "side-strength-levels-heads": "{{levels}} niveles · {{count}} integrantes",
   "side-strength-standing": "En pie",
   "side-strength-strength-aria": "Fuerza de {{label}}: {{standing}} de {{total}} niveles en pie",
   "side-strength-thresholds": "Marcas en el 50 %, 25 % y 10 %",
